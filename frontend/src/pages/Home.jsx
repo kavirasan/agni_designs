@@ -10,8 +10,13 @@ import Customer_Reviews from "../components/Customer_Reviews";
 import Custom_Footer from "../components/Footer";
 import { Button } from "flowbite-react";
 import { HiOutlineArrowRight } from "react-icons/hi";
-import WebViewer from "../components/animation/WebViewer";
+// import WebViewer from "../components/animation/WebViewer";
 import Model from "../components/animation/Model";
+import Jumbotron from "../components/animation/Jumbotron";
+import SoundSection from "../components/animation/SoundSection";
+import WebgiViewer from "../components/animation/WebgiViewer";
+
+
 const Home = () => {
   useEffect(() => {
     // GSAP animation for text reveal
@@ -36,8 +41,9 @@ const Home = () => {
         className="fixed top-0 left-0 right-0 bottom-0 w-screen h-screen object-cover -z-10"
       />  */}
       <Navbar_custom />
-      <Model/>
+      {/* <Model/> */}
       {/* <WebViewer/> */}
+     <WebgiViewer/>
       <div className="text-center mt-10">
         <p className="text-balance text-2xl font-bold subpixel-antialiased tracking-tight text-gray-900 sm:text-7xl">
           {wrapTextInSpans("Elevating MEP Design with BIM & Revit Expertise")}
@@ -58,10 +64,12 @@ const Home = () => {
         <img src={bim} className="bg-opacity-0 rounded-xl" />
       </div>
       <QuoteBanner />
+     
       <Customer_Reviews />
       <About_Us />
       <Area_Expertise />
       <Custom_Footer />
+      
     </div>
   );
 };

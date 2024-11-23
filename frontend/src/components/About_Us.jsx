@@ -5,7 +5,7 @@ import bim from "../assets/bim.jpg";
 
 const About_Us = () => {
   return (
-    <div className="p-5">
+    <div className="p-5"  >
       <p className="text-center text-2xl md:text-4xl font-bold mt-10"> About Us</p>
       <div className=" items-center  w-14 md:w-40 h-2 bg-yellow-300 rounded-lg mx-auto mb-5 mt-2"></div>
 
