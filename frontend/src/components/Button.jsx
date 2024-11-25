@@ -1,7 +1,7 @@
 import React from "react";
 
 const Button = (props) => {
-  const { id, title, leftIcon, containerClass } = props;
+  const { id, title, leftIcon, containerClass,rightIcon } = props;
   return (
     <button
       id={id}
@@ -11,6 +11,7 @@ const Button = (props) => {
       <span className="relative  incline-flex overflow-hidden  font-bold text-xs uppercase">
         <div>{title}</div>
       </span>
+      {rightIcon}
     </button>
   );
 };
