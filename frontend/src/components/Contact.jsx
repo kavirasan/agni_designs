@@ -1,6 +1,9 @@
 import AnimatedTitle from "./AnimatedTitle";
 import Button from "./Button";
-import bim from "../assets/bim.jpg"
+import four from  "../assets/new_agni_images/4.png"
+import five from  "../assets/new_agni_images/5.png"
+import six from  "../assets/new_agni_images/6.png"
+import seven from  "../assets/new_agni_images/7.png"
 
 const ImageClipBox = ({ src, clipClass }) => (
   <div className={clipClass}>
@@ -10,42 +13,37 @@ const ImageClipBox = ({ src, clipClass }) => (
 
 const Contact = () => {
   return (
-    <div id="contact" className="my-20 min-h-96 w-screen  px-10">
-      <div className="relative rounded-lg bg-black py-24 text-blue-50 sm:overflow-hidden">
+    <div id="contact" className="my-20 min-h-96  w-screen  px-10">
+      <div className="relative rounded-lg bg-white py-10 md:py-24  text-black sm:overflow-hidden">
         <div className="absolute -left-20 top-0 hidden h-full w-72 overflow-hidden sm:block lg:left-20 lg:w-96">
           <ImageClipBox
-            // src="/img/contact-1.webp"
-            src={bim}
+           
+            src={six}
             clipClass="contact-clip-path-1"
           />
           <ImageClipBox
-            // src="/img/contact-2.webp"
-            src={bim}
-            clipClass="contact-clip-path-2 lg:translate-y-40 translate-y-60"
+          
+            src={five}
+            clipClass="contact-clip-path-2 lg:translate-y-20 translate-y-60"
           />
         </div>
 
-        <div className="absolute -top-40 left-20 w-60 sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80">
+        <div className="absolute hidden md:flex -top-40 left-20 w-60 sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80">
           <ImageClipBox
-            // src="/img/swordman-partial.webp"
-            src={bim}
+            src={four}
             clipClass="absolute md:scale-125"
           />
-          <ImageClipBox
-            // src="/img/swordman.webp"
-            src={bim}
-            clipClass="sword-man-clip-path md:scale-125"
-          />
+         
         </div>
 
         <div className="flex flex-col items-center text-center">
           <p className="mb-10 font-general text-[10px] uppercase">
-            Join Zentry
+            Join Agni Design
           </p>
-
           <AnimatedTitle
-            title="let&#39;s b<b>u</b>ild the <br /> new era of <br /> g<b>a</b>ming t<b>o</b>gether."
-            className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
+            title="Let's shape the future of design together"
+            sectionId="#story"
+            containerClass="mt-5 pointer-events-none mix-blend-difference  !text-sm md:!text-5xl relative z-10 "
           />
 
           <Button title="contact us" containerClass="mt-10 cursor-pointer" />

@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import video from "../../public/hero.mp4";
+import video1 from "../assets/new_agni_images/Video2.mp4"
 import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
 import { useGSAP } from "@gsap/react";
@@ -109,62 +110,47 @@ const Hero = () => {
               onClick={handleMiniVdClick}
               className="origin-center scale-50 opacity-0 transition-all duration-500 ease-in hover:scale-100 hover:opacity-100"
             >
-              <video
-                ref={nextVideoRef}
-                //src={getVideoSrc(currentIndex + 1)}
-                src={video}
-                loop
-                muted
-                id="current-video"
-                className="size-64 origin-center scale-150 object-cover object-center"
-                onLoadedData={handleVideoLand}
-              />
+              
             </div>
           </div>
 
           <video
-            ref={nextVideoRef}
-            src={video}
-            loop
-            muted
-            id="next-video"
-            className="absolute-center invisible absolute z-20 size-64 object-cover object-center"
-          />
-          <video
-            // src={getVideoSrc(
-            //   currentIndex == totalVideos - 1 ? 1 : currentIndex
-            // )}
-            src={video}
-            autoPlay
-            loop
-            muted
-            className="absolute left-0 top-0 size-full object-cover object-center"
-            onLoadedData={handleVideoLand}
-          />
+                ref={nextVideoRef}
+                //src={getVideoSrc(currentIndex + 1)}
+                src={video1}
+                loop
+                muted
+                id="current-video"
+                className="size-64 w-full h-screen origin-center scale-150 object-cover object-center "
+                onLoadedData={handleVideoLand}
+                autoPlay
+              />
+              
+
+         
         </div>
-        <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-orange-500">
+        <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-black/80">
           Let's Start
         </h1>
 
-        <div className="absolute left-0 top-0 z-40 size-full">
-          <div className="mt-24 px-5 sm:px-10 ">
-            <h1 className="hero-heading text-orange-500">
+        <div className="absolute left-0 top-14 z-40 size-full text-center">
+          <div className="mt-24 px-4 sm:px-10 flex items-center flex-col">
+            <h1 className="hero-heading text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-yellow-350 to-yellow-300 ">
               Agni <b>Designs</b> <br /> Consultant
             </h1>
-            <p className="mb-5 max-w-64 Poppins font-semibold text-blue-100">
-              {" "}
-              Innovating MEP Designs <br /> with BIM and Revit Expertis{" "}
+            <p className="mb-5 max-w-full Poppins font-semibold text-white/90 mt-5">
+              Innovating MEP Designs <br /> with BIM and Revit Expertise
             </p>
             <Button
               id="watch-trailer"
-              title="Get Started"
+              title="Explore Now"
               leftIcon={<TiLocationArrow />}
-              containerClass="!bg-violet-600 flex-center gap-1"
+              containerClass=" flex-center gap-1"
             />
           </div>
         </div>
       </div>
-      <h1 className="special-font hero-heading absolute bottom-5 right-5  text-black">
+      <h1 className="special-font hero-heading absolute bottom-5 right-5  text-orange-500">
           Let's Start
         </h1>
     </div>

@@ -2,61 +2,68 @@ import React from "react";
 import DynamicCard from "./DynamicCard";
 import { TiLocationArrow } from "react-icons/ti";
 import DynamicCardTitle from "./DynamicCardTitle";
+import team from "../assets/new_agni_images/fulllogo.jpg";
+// import team from "../assets/new_agni_images/5.png";
+import mep1 from "../assets/new_agni_images/mep1.jpg";
+import banner from "../assets/herobg1.jpg"
 
 const Features = () => {
   return (
-    <section className="bg-black pb-52 md:pl-5 px-5">
+    <section className="bg-slate-50 pb-5 md:-mb-40 md:pl-5 px-5">
       <div className="container mx-auto px-3 md:px-10">
-        <div className="px-5 py-32">
-          <p className=" text-lg text-blue-50">
+        <div className="px-5 pt-14 pb-5">
+          <p className=" text-xl font-semibold text-black-50">
             Into The World of Agni Designs
           </p>
         </div>
-        <p className="max-w-md text-lg text-blue-50 opacity-50">
-          When you use useState, it allows you to add state to your component.
-          It returns an array with two parts: the current state value and a
-          function that allows you to update that state.
+        <p className="max-w-3xl space-x-1  text-start md:text-justify text-xs md:text-lg  text-black  pb-5">
+          AGNI Design Consultants is a leading provider of MEP (Mechanical,
+          Electrical, and Plumbing) Design Services, offering cutting-edge
+          solutions for both design and implementation. With over two decades of
+          collective experience, we bring unparalleled expertise to every
+          project, delivering innovative, sustainable, and eco-friendly
+          engineering solutions. Our team visualizes every project
+          comprehensively, blending MEP design with architectural insights to
+          maximize efficiency and minimize revisions.
         </p>
       </div>
       <DynamicCardTitle className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <DynamicCard
-          src={"../../public/hero.mp4"}
-          title={<>Explore our Products</>}
-          description="use useState, it allows you to add state to your component.
-          It returns an array with two parts: "
+          // src={"../../public/hero.mp4"}
+          src={team}
+          title={<>Explore our Services</>}
+          description="we offer a comprehensive range of MEP and BIM services, crafted to meet the unique needs of each client. Our services are designed to provide value at every stage of the project lifecycle, from conceptual design to execution. "
           isComingSoon={false}
         />
       </DynamicCardTitle>
       <div className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7">
         <DynamicCardTitle className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <DynamicCard
-            src={"../../public/hero.mp4"}
-            title={<>Explore our Products</>}
-            description="use useState, it allows you to add state to your component.
-          It returns an array with two parts: "
+            src={mep1}
+            title={<>Our Clients</>}
+            description="Our portfolio spans a diverse range of commercial, industrial, and specialized projects, delivering customized, high-quality solutions with a strong emphasis on innovation and efficiency."
             isComingSoon={false}
           />
         </DynamicCardTitle>
 
-        <DynamicCardTitle className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
+        <DynamicCardTitle className="bento-tilt_1 row-span-1  md:col-span-1 md:ms-0">
           <DynamicCard
-            src={"../../public/hero.mp4"}
-            title={<>Explore our Products</>}
-            description="use useState, it allows you to add state to your component.
-          It returns an array with two parts: "
+            // src={"../../public/hero.mp4"}
+            src={banner}
+            title={<>Recent Projects</>}
+            description=""
             isComingSoon={false}
           />
         </DynamicCardTitle>
-        <DynamicCardTitle className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
-          <DynamicCard
-            src={"../../public/hero.mp4"}
-            title={<>Explore our Products</>}
-            description="use useState, it allows you to add state to your component.
-          It returns an array with two parts: "
-            isComingSoon={false}
-          />
+        <DynamicCardTitle className="bento-tilt_1 md:col-span-1 md:me-0">
+          <div className="flex size-full flex-col justify-between bg-gradient-to-r from-orange-500 via-yellow-350 to-yellow-300  p-5">
+            <h1 className="bento-title  special-font  text-white">
+              More Coming Soon !
+            </h1>
+            <TiLocationArrow className="m-5 scale-[5] self-end text-white" />
+          </div>
         </DynamicCardTitle>
-        <DynamicCardTitle className="bento-tilt_2">
+        {/* <DynamicCardTitle className="bento-tilt_2">
           <div className="flex size-full flex-col justify-between bg-violet-700 p-5">
             <h1 className="bento-title  special-font max-w-64 text-black">
               More Coming Soon !
@@ -72,7 +79,7 @@ const Features = () => {
             autoPlay
             className="size-full object-cover object-center"
           />
-        </DynamicCardTitle>
+        </DynamicCardTitle> */}
       </div>
     </section>
   );

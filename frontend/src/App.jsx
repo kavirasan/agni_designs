@@ -1,21 +1,27 @@
-import About from "./components/About";
-import Features from "./components/Features";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Story from "./components/Story";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import AboutPage from "./pages/AboutPage";
+import ContactUsPage from "./pages/ContactUsPage";
+import GetInTouchPage from "./pages/GetInTouchPage";
+import HomePage from "./pages/HomePage";
+import MasterPage from "./pages/MasterPage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
-    <main className="relative min-h-screen w-screen overflow-x-hidden">
-      <Navbar />
-      <Hero />
-      <About />
-      <Features />
-      <Story />
-      <Contact />
-      <Footer />
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MasterPage RouteName={<HomePage />} />} />
+        <Route
+          path="/about"
+          element={<MasterPage RouteName={<AboutPage />} />}
+        />
+        <Route
+          path="/getintouch"
+          element={<MasterPage RouteName={<GetInTouchPage />} />}
+        />
+        <Route path="/contact" 
+          element={<MasterPage RouteName={<ContactUsPage/>}/>}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
