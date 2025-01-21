@@ -4,17 +4,17 @@ import React from "react";
 import { Card } from "flowbite-react";
 import four from "../../assets/new_agni_images/4.png";
 
-const CustomCard = ({ CardHead, CardDescription }) => {
+const CustomCard = ({ CardHead, CardDescription,CardImage }) => {
   return (
     <Card
       className="max-w-sm rounded-2xl"
       renderImage={() => (
         <img
-          width={500}
-          height={500}
-          src={four}
+          // width={300}
+          // height={300}
+          src={CardImage}
           alt="image 1"
-          className="rounded-t-2xl"
+          className="rounded-t-2xl object-fill"
         />
       )}
     >

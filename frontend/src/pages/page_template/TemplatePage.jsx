@@ -12,9 +12,13 @@ const TemplatePage = (props) => {
     descriptionPara,
     CardTitle,
     CardData,
+    CardTitle1,
+    CardData1,
     CsTitle,
     CsPara,
+    CsImg,
   } = props;
+  
   return (
     <div>
       <div>
@@ -39,7 +43,14 @@ const TemplatePage = (props) => {
         />
       </div>
       <div>
-        <CaseStudy CsTitle={CsTitle} CsPara={CsPara} />
+        <CardList
+          CardTitle={CardTitle1}
+          CardData={CardData1}
+          //CardData is json object for card
+        />
+      </div>
+      <div>
+        <CaseStudy CsTitle={CsTitle} CsPara={CsPara} CsImg={CsImg} />
       </div>
     </div>
   );

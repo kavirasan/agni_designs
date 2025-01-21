@@ -1,7 +1,7 @@
 import React from "react";
 import four from "../../assets/new_agni_images/4.png";
 
-const CaseStudy = ({ CsTitle, CsPara }) => {
+const CaseStudy = ({ CsTitle, CsPara,CsImg }) => {
   return (
     <div className="flex ">
       <div className="flex flex-col justify-center items-start mx-2 md:mx-40 gap-10 py-10">
@@ -14,7 +14,7 @@ const CaseStudy = ({ CsTitle, CsPara }) => {
           {CsPara}
         </p>
       </div>
-      <img src={four} className="h-[40rem] w-[50rem] object-cover" />
+      <img src={CsImg} className="h-[40rem] w-[50rem] object-cover" />
     </div>
   );
 };

@@ -6,10 +6,13 @@ import team from "../assets/new_agni_images/fulllogo.jpg";
 // import team from "../assets/new_agni_images/5.png";
 import mep1 from "../assets/new_agni_images/mep1.jpg";
 import banner from "../assets/herobg1.jpg"
+import software from "../assets/new_agni_images/software.jpeg"
+import clients from "../assets/clients/client_xs.png"
+import project1 from "../assets/projects/project2.png"
 
 const Features = () => {
   return (
-    <section className="bg-slate-50 pb-5 md:-mb-40 md:pl-5 px-5">
+    <section className="bg-slate-50 pb-5 md:pl-5 px-5">
       <div className="container mx-auto px-3 md:px-10">
         <div className="px-5 pt-14 pb-5">
           <p className=" text-xl font-semibold text-black-50">
@@ -30,29 +33,64 @@ const Features = () => {
       <DynamicCardTitle className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <DynamicCard
           // src={"../../public/hero.mp4"}
-          src={team}
-          title={<>Explore our Services</>}
+          src={project1}
+          title={<> Our Recent Projects</>}
           description="we offer a comprehensive range of MEP and BIM services, crafted to meet the unique needs of each client. Our services are designed to provide value at every stage of the project lifecycle, from conceptual design to execution. "
           isComingSoon={false}
         />
       </DynamicCardTitle>
-      <div className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7">
+      {/* <DynamicCardTitle className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
+        <DynamicCard
+          // src={"../../public/hero.mp4"}
+          src={team}
+          title={<>Explore our Services</>}
+          description="we offer a comprehensive range of MEP and BIM services, crafted to meet the unique needs of each client. Our services are designed to provide value at every stage of the project lifecycle, from conceptual design to execution. "
+          isComingSoon={true}
+        />
+      </DynamicCardTitle> */}
+      <div className="grid h-[80vh] grid-cols-2 grid-rows-2 gap-7 mb-5">
         <DynamicCardTitle className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <DynamicCard
-            src={mep1}
+            src={clients}
             title={<>Our Clients</>}
-            description="Our portfolio spans a diverse range of commercial, industrial, and specialized projects, delivering customized, high-quality solutions with a strong emphasis on innovation and efficiency."
+            // description="Our portfolio spans a diverse range of commercial, industrial, and specialized projects, delivering customized, high-quality solutions with a strong emphasis on innovation and efficiency."
             isComingSoon={false}
           />
         </DynamicCardTitle>
+        <DynamicCardTitle className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
+          <DynamicCard
+            src={software}
+            title={<> We Specialize In </>}
+            // description="Our portfolio spans a diverse range of commercial, industrial, and specialized projects, delivering customized, high-quality solutions with a strong emphasis on innovation and efficiency."
+            isComingSoon={false}
+          />
+        </DynamicCardTitle>
+      </div>
+      {/* <DynamicCardTitle className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
+        <DynamicCard
+          // src={"../../public/hero.mp4"}
+          src={project1}
+          title={<> Our Recent Projects</>}
+          description="we offer a comprehensive range of MEP and BIM services, crafted to meet the unique needs of each client. Our services are designed to provide value at every stage of the project lifecycle, from conceptual design to execution. "
+          isComingSoon={false}
+        />
+      </DynamicCardTitle> */}
+     
+    </section>
+  );
+};
 
-        <DynamicCardTitle className="bento-tilt_1 row-span-1  md:col-span-1 md:ms-0">
+export default Features;
+
+
+
+    {/* <DynamicCardTitle className="bento-tilt_1 row-span-1  md:col-span-1 md:ms-0">
           <DynamicCard
             // src={"../../public/hero.mp4"}
             src={banner}
             title={<>Recent Projects</>}
             description=""
-            isComingSoon={false}
+            isComingSoon={true}
           />
         </DynamicCardTitle>
         <DynamicCardTitle className="bento-tilt_1 md:col-span-1 md:me-0">
@@ -62,7 +100,7 @@ const Features = () => {
             </h1>
             <TiLocationArrow className="m-5 scale-[5] self-end text-white" />
           </div>
-        </DynamicCardTitle>
+        </DynamicCardTitle> */}
         {/* <DynamicCardTitle className="bento-tilt_2">
           <div className="flex size-full flex-col justify-between bg-violet-700 p-5">
             <h1 className="bento-title  special-font max-w-64 text-black">
@@ -80,9 +118,3 @@ const Features = () => {
             className="size-full object-cover object-center"
           />
         </DynamicCardTitle> */}
-      </div>
-    </section>
-  );
-};
-
-export default Features;

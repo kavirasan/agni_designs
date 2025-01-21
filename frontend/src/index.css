@@ -61,7 +61,7 @@
   }
 
   .about-subtext {
-    @apply absolute  bottom-[-97dvh] md:bottom-[-80dvh]  left-1/2 w-full max-w-full -translate-x-1/2 text-center text-sm px-2 md:text-xl md:max-w-[90rem];
+    @apply absolute  bottom-[-97dvh] md:bottom-[-82dvh]  left-1/2 w-full max-w-full -translate-x-1/2 text-center text-sm px-2  md:text-xl md:max-w-[90rem];
   }
 
   .about-image {

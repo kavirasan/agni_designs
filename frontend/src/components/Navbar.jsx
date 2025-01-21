@@ -16,25 +16,29 @@ import { Link } from "react-router-dom";
 // const navItems = ["Home", "About", "Contact Us", "Get in Touch"];
 const navItems = [
   {
-  id:1,
-  name:"Home",
-  path:"/"
-},
-{
-  id:1,
-  name:"About",
-  path:"/about"
-},
-{
-  id:1,
-  name:"Contact Us",
-  path:"/contact"
-},
-{
-  id:1,
-  name:"Get a Quote",
-  path:"/getintouch"
-},
+    id: 1,
+    name: "Home",
+    path: "/",
+  },
+  {
+    id: 2,
+    name: "our Services",
+  },
+  {
+    id: 3,
+    name: "About",
+    path: "/about",
+  },
+  {
+    id: 4,
+    name: "Contact Us",
+    path: "/contact",
+  },
+  {
+    id: 5,
+    name: "Get a Quote",
+    path: "/getintouch",
+  },
 ];
 
 const Navbar = () => {
@@ -83,7 +87,7 @@ const Navbar = () => {
               rightIcon={<TiLocationArrow />}
               containerClass="md:flex hidden items-center justify-center gap-1 "
             /> */}
-            <div className="hidden md:flex ">
+            {/* <div className="hidden md:flex ">
               <Dropdown
                 label="our Services"
                 dismissOnClick={false}
@@ -93,16 +97,14 @@ const Navbar = () => {
                 onMouseLeave={() => setShowDropdownValues(false)}
               >
                 <Dropdown.Item className="px-10 py-2">
-                  {" "}
                   MEP Design Services <MdOutlineArrowOutward className="mx-2" />
                 </Dropdown.Item>
                 <Dropdown.Item className="px-10 py-2">
-                  {" "}
-                  Technical Due Diligence{" "}
+                  Technical Due Diligence
                   <MdOutlineArrowOutward className="mx-2" />
                 </Dropdown.Item>
                 <Dropdown.Item className="px-10 py-2">
-                  Validating & Value Engineering{" "}
+                  Validating & Value Engineering
                   <MdOutlineArrowOutward className="mx-2" />
                 </Dropdown.Item>
                 <Dropdown.Item className="px-10 py-2">
@@ -112,20 +114,100 @@ const Navbar = () => {
                   Third party Testing <MdOutlineArrowOutward className="mx-2" />
                 </Dropdown.Item>
               </Dropdown>
-            </div>
+            </div> */}
           </div>
           <div className="flex h-full items-center">
-            <div className="hidden md:block ">
-              {navItems.map((item) => (
-                <Link
-                  key={item.id}
-                  // href={`#${item.toLowerCase()}`}
-                  className="nav-hover-btn font-bold "
-                  to={item.path}
-                >
-                  {item.name}
-                </Link>
-              ))}
+            <div className="hidden md:flex md:items-center justify-between ">
+              {navItems.map((item) =>
+                item.id === 2 ? (
+                  <div
+                    className="hidden md:flex relative"
+                    onMouseEnter={() => setShowDropdownValues(true)}
+                    onMouseLeave={() => setShowDropdownValues(false)}
+                  >
+                    <button className="font-bold  nav-hover-btn flex items-center">
+                      Our Services<svg
+                        className="w-4 h-4 ms-2"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 10 6"
+                      >
+                        <path
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="m1 1 4 4 4-4"
+                        />
+                      </svg>
+                    </button>
+                    {showDropdownValues == true && (
+                      <div
+                        id="dropdownHover"
+                        className="hidden md:flex absolute items-center justify-center -ml-2 mt-8  bg-white divide-y divide-gray-100 rounded-md shadow  dark:bg-gray-700"
+                        onMouseEnter={() => setShowDropdownValues(true)}
+                        onMouseLeave={() => setShowDropdownValues(false)}
+                      >
+                        <ul
+                          className="py-2 w-72 text-sm text-gray-700 dark:text-gray-200"
+                          aria-labelledby="dropdownHoverButton"
+                        >
+                          <li>
+                            <Link
+                              to="/mep-design"
+                              className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                            >
+                              MEP Design Services
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="/technical-due-diligence"
+                              className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                            >
+                              Technical Due Diligence
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="/validating-value-engineering"
+                              className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                            >
+                              Validating & Value Engineering
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="/mep-bim"
+                              className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                            >
+                              MEP BIM Services
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="/third-party-testing"
+                              className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                            >
+                              Third Party Testing
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <Link
+                    key={item.id}
+                    // href={`#${item.toLowerCase()}`}
+                    className="nav-hover-btn font-bold "
+                    to={item.path}
+                  >
+                    {item.name}
+                  </Link>
+                )
+              )}
             </div>
           </div>
           <div className="flex md:hidden -mt-2 mr-5">
@@ -165,33 +247,35 @@ const Navbar = () => {
             containerClass=" mt-10 !text-black"
             onClick={() => setMobileNavVisible(false)}
           />
-           <Dropdown
-                label="" dismissOnClick={false} renderTrigger={() => <span className="flex justify-center items-center ml-10 font-bold">Our Services <MdOutlineKeyboardArrowDown className="mx-2" /></span>}
-              >
-                <Dropdown.Item className=" py-2">
-                  {" "}
-                  MEP Design Services <MdOutlineArrowOutward className="mx-2" />
-                </Dropdown.Item>
-                <Dropdown.Item className=" py-2">
-                  {" "}
-                  Technical Due Diligence{" "}
-                  <MdOutlineArrowOutward className="mx-2" />
-                </Dropdown.Item>
-                <Dropdown.Item className=" py-2">
-                  Validating & Value Engineering{" "}
-                  <MdOutlineArrowOutward className="mx-2" />
-                </Dropdown.Item>
-                <Dropdown.Item className=" py-2">
-                  MEP BIM Services <MdOutlineArrowOutward className="mx-2" />
-                </Dropdown.Item>
-                <Dropdown.Item className="py-2">
-                  Third party Testing <MdOutlineArrowOutward className="mx-2" />
-                </Dropdown.Item>
-              </Dropdown>
-          <AnimatedTitle
-            title="About Us"
-            containerClass=" !text-black "
-          />
+          <Dropdown
+            label=""
+            dismissOnClick={false}
+            renderTrigger={() => (
+              <span className="flex justify-center items-center ml-10 font-bold">
+                Our Services <MdOutlineKeyboardArrowDown className="mx-2" />
+              </span>
+            )}
+          >
+            <Dropdown.Item className=" py-2">
+              {" "}
+              MEP Design Services <MdOutlineArrowOutward className="mx-2" />
+            </Dropdown.Item>
+            <Dropdown.Item className=" py-2">
+              {" "}
+              Technical Due Diligence <MdOutlineArrowOutward className="mx-2" />
+            </Dropdown.Item>
+            <Dropdown.Item className=" py-2">
+              Validating & Value Engineering{" "}
+              <MdOutlineArrowOutward className="mx-2" />
+            </Dropdown.Item>
+            <Dropdown.Item className=" py-2">
+              MEP BIM Services <MdOutlineArrowOutward className="mx-2" />
+            </Dropdown.Item>
+            <Dropdown.Item className="py-2">
+              Third party Testing <MdOutlineArrowOutward className="mx-2" />
+            </Dropdown.Item>
+          </Dropdown>
+          <AnimatedTitle title="About Us" containerClass=" !text-black " />
           <AnimatedTitle
             title="Our Projects "
             containerClass="!text-black text-center"

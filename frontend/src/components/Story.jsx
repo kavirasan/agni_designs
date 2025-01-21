@@ -55,7 +55,7 @@ const Story = () => {
           <AnimatedTitle
             title=" the story of Agni Design Consultant"
             sectionId="#story"
-            containerClass="mt-5 pointer-events-none mix-blend-difference  !text-xl md:!text-5xl relative z-10 "
+            containerClass="mt-5 pointer-events-none mix-blend-difference !text-xl md:!text-5xl relative z-10 "
           />
           <div className="flex flex-col items-center justify-center my-10">
             <img

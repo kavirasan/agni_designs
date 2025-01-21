@@ -12,7 +12,7 @@ const AnimatedTitle = ({ title, containerClass ,onClick}) => {
       const titleAnimation = gsap.timeline({
         scrollTrigger: {
           trigger: containRef.current,
-          start: "100 bottom",
+          start: "10 bottom",
           end: "center bottom",
           toggleActions: "play none none reverse",
         },
@@ -42,7 +42,7 @@ const AnimatedTitle = ({ title, containerClass ,onClick}) => {
           {line.split(" ").map((word, idx) => (
             <span
               key={idx}
-              className="animated-word "
+              className="animated-word"
               dangerouslySetInnerHTML={{ __html: word }}
             />
           ))}

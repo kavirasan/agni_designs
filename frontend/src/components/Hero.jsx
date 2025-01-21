@@ -136,7 +136,7 @@ const Hero = () => {
         <div className="absolute left-0 top-14 z-40 size-full text-center">
           <div className="mt-24 px-4 sm:px-10 flex items-center flex-col">
             <h1 className="hero-heading text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-yellow-350 to-yellow-300 ">
-              Agni <b>Designs</b> <br /> Consultant
+              Agni <b>Design</b> <br /> Consultants
             </h1>
             <p className="mb-5 max-w-full Poppins font-semibold text-white/90 mt-5">
               Innovating MEP Designs <br /> with BIM and Revit Expertise
