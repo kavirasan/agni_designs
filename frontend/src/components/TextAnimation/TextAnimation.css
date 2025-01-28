@@ -1,0 +1,32 @@
+/* Center the container */
+.at-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Animation Item */
+  .at-item {
+  
+    /* Apply Keyframes Animation */
+    animation-name: text-focus-in;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+  
+  /* Keyframes for CSS Animation */
+  @keyframes text-focus-in {
+    0% {
+      filter: blur(5px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+  

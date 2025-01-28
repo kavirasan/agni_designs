@@ -1,4 +1,4 @@
-import AnimatedTitle from "./AnimatedTitle";
+import AnimatedTitle from "./TextAnimation/AnimatedTitle";
 import Button from "./Button";
 import four from  "../assets/new_agni_images/4.png"
 import five from  "../assets/new_agni_images/5.png"

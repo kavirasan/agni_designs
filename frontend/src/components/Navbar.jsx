@@ -5,7 +5,7 @@ import { TiLocationArrow } from "react-icons/ti";
 import { useSet, useWindowScroll } from "react-use";
 import gsap from "gsap";
 import { PiNavigationArrowFill } from "react-icons/pi";
-import AnimatedTitle from "./AnimatedTitle";
+import AnimatedTitle from "./TextAnimation/AnimatedTitle";
 import { IoCloseOutline } from "react-icons/io5";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
@@ -81,40 +81,6 @@ const Navbar = () => {
         <nav className="flex size-full items-center justify-between p-4 ">
           <div className="flex items-center gap-7  ">
             <img src={logo} className="w-20 h-20 p-2" />
-            {/* <Button
-              id="product-button"
-              title="Products"
-              rightIcon={<TiLocationArrow />}
-              containerClass="md:flex hidden items-center justify-center gap-1 "
-            /> */}
-            {/* <div className="hidden md:flex ">
-              <Dropdown
-                label="our Services"
-                dismissOnClick={false}
-                color="light"
-                pill
-                onMouseEnter={() => setShowDropdownValues(true)}
-                onMouseLeave={() => setShowDropdownValues(false)}
-              >
-                <Dropdown.Item className="px-10 py-2">
-                  MEP Design Services <MdOutlineArrowOutward className="mx-2" />
-                </Dropdown.Item>
-                <Dropdown.Item className="px-10 py-2">
-                  Technical Due Diligence
-                  <MdOutlineArrowOutward className="mx-2" />
-                </Dropdown.Item>
-                <Dropdown.Item className="px-10 py-2">
-                  Validating & Value Engineering
-                  <MdOutlineArrowOutward className="mx-2" />
-                </Dropdown.Item>
-                <Dropdown.Item className="px-10 py-2">
-                  MEP BIM Services <MdOutlineArrowOutward className="mx-2" />
-                </Dropdown.Item>
-                <Dropdown.Item className="px-10 py-2">
-                  Third party Testing <MdOutlineArrowOutward className="mx-2" />
-                </Dropdown.Item>
-              </Dropdown>
-            </div> */}
           </div>
           <div className="flex h-full items-center">
             <div className="hidden md:flex md:items-center justify-between ">
@@ -126,7 +92,8 @@ const Navbar = () => {
                     onMouseLeave={() => setShowDropdownValues(false)}
                   >
                     <button className="font-bold  nav-hover-btn flex items-center">
-                      Our Services<svg
+                      Our Services
+                      <svg
                         className="w-4 h-4 ms-2"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
@@ -155,7 +122,7 @@ const Navbar = () => {
                         >
                           <li>
                             <Link
-                              to="/mep-design"
+                              to="/service"
                               className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                             >
                               MEP Design Services
@@ -163,7 +130,7 @@ const Navbar = () => {
                           </li>
                           <li>
                             <Link
-                              to="/technical-due-diligence"
+                              to="/service"
                               className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                             >
                               Technical Due Diligence
@@ -171,7 +138,7 @@ const Navbar = () => {
                           </li>
                           <li>
                             <Link
-                              to="/validating-value-engineering"
+                              to="/service"
                               className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                             >
                               Validating & Value Engineering
@@ -179,7 +146,7 @@ const Navbar = () => {
                           </li>
                           <li>
                             <Link
-                              to="/mep-bim"
+                              to="/service"
                               className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                             >
                               MEP BIM Services
@@ -187,7 +154,7 @@ const Navbar = () => {
                           </li>
                           <li>
                             <Link
-                              to="/third-party-testing"
+                              to="/service"
                               className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                             >
                               Third Party Testing

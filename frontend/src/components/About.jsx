@@ -3,7 +3,7 @@ import img from "../assets/new_agni_images/7.png";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import AnimatedTitle from "./AnimatedTitle";
+import AnimatedTitle from "./TextAnimation/AnimatedTitle";
 
 gsap.registerPlugin(ScrollTrigger);
 

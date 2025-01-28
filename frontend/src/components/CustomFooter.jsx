@@ -53,7 +53,7 @@ const CustomFooter = () => {
                 </Footer.Link>
                 <Footer.Link href="#">Phone No: 987654321</Footer.Link>
                 <Footer.Link href="#">
-                  email at:AgniDesignConsultant@gmail.com
+                  email at: agnidesignconsultant@gmail.com
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>

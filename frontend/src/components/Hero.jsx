@@ -5,8 +5,10 @@ import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import {Link} from "react-router-dom"
 
 import { ScrollTrigger } from "gsap/all";
+import TextAnimation from "./TextAnimation/TextAnimation";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -137,17 +139,24 @@ const Hero = () => {
           <div className="mt-24 px-4 sm:px-10 flex items-center flex-col">
             <h1 className="hero-heading text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-yellow-350 to-yellow-300 ">
               Agni <b>Design</b> <br /> Consultants
+            {/* <TextAnimation name={"Agni Design Consultant"}/> */}
             </h1>
             <p className="mb-5 max-w-full Poppins font-semibold text-white/90 mt-5">
               Innovating MEP Designs <br /> with BIM and Revit Expertise
             </p>
-            <Button
+          
+             
+          </div>
+          {/* <div className="flex justify-center z-60" onClick={() => console.log("clicked")}>
+
+          <Button
+              route="/about"
               id="watch-trailer"
               title="Explore Now"
               leftIcon={<TiLocationArrow />}
-              containerClass=" flex-center gap-1"
-            />
-          </div>
+              containerClass=" flex-center gap-2  "
+              />  
+              </div> */}
         </div>
       </div>
       <h1 className="special-font hero-heading absolute bottom-5 right-5  text-orange-500">

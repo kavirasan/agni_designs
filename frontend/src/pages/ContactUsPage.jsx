@@ -77,7 +77,9 @@ const ContactUsPage = () => {
                         Address
                       </strong>
                     </span>
-                    <p>123 Main Street, City, Country</p>
+                    <p>
+                      No 25B, Ramalingam Nagar, Kottivakkam, OMR Chennai 600041
+                    </p>
                   </li>
                   <li className="flex flex-col gap-x-3">
                     <span>
@@ -85,7 +87,7 @@ const ContactUsPage = () => {
                         Phone
                       </strong>
                     </span>
-                    <p> +123 456 7890 </p>
+                    <p> +91 98848 41412 </p>
                   </li>
                   <li className="flex flex-col gap-x-3">
                     <span>
@@ -93,7 +95,7 @@ const ContactUsPage = () => {
                         Email
                       </strong>
                     </span>
-                    <p> info@example.com</p>
+                    <p>info@agnimep.com</p>
                   </li>
                   <li className="flex flex-col gap-x-3">
                     <span>

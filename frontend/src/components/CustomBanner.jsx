@@ -1,16 +1,16 @@
 import React, { useEffect } from "react";
-import AnimatedTitle from "../components/AnimatedTitle";
+import AnimatedTitle from "./TextAnimation/AnimatedTitle";
 import four from "../assets/new_agni_images/4.png"
 
 const CustomBanner = ({ image, title, description }) => {
   return (
     <div className="w-full h-[30rem]  flex flex-col justify-center items-center mx-2 md:px-20 gap-5">
-      <div className="absolute top-0 left-0 bg-white/50 w-full h-[30rem] z-10 " />
+      <div className="absolute top-0 left-0 bg-white/40 w-full h-[34rem] z-10 " />
       <img
-        src={four}
-        className="absolute top-0 left-0 bg-white/50 w-full h-[30rem] object-cover object-center"
+        src={image}
+        className="absolute top-0 left-0 bg-white/70 w-full h-[34rem] object-cover object-center"
       />
-      <AnimatedTitle title={title} containerClass=" z-30 !text-black  " />
+      <AnimatedTitle title={title} containerClass=" z-30 !text-black" />
 
       <p className="mx-5 z-30 font-semibold text-center">{description}</p>
     </div>

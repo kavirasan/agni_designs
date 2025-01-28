@@ -37,7 +37,7 @@ const Features = () => {
           title={<> Our Recent Projects</>}
           description="we offer a comprehensive range of MEP and BIM services, crafted to meet the unique needs of each client. Our services are designed to provide value at every stage of the project lifecycle, from conceptual design to execution. "
           isComingSoon={false}
-        />
+        route="/client"     />
       </DynamicCardTitle>
       {/* <DynamicCardTitle className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <DynamicCard
@@ -55,6 +55,7 @@ const Features = () => {
             title={<>Our Clients</>}
             // description="Our portfolio spans a diverse range of commercial, industrial, and specialized projects, delivering customized, high-quality solutions with a strong emphasis on innovation and efficiency."
             isComingSoon={false}
+            route="/client"
           />
         </DynamicCardTitle>
         <DynamicCardTitle className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
@@ -63,12 +64,13 @@ const Features = () => {
             title={<> We Specialize In </>}
             // description="Our portfolio spans a diverse range of commercial, industrial, and specialized projects, delivering customized, high-quality solutions with a strong emphasis on innovation and efficiency."
             isComingSoon={false}
+            route="/software"
           />
         </DynamicCardTitle>
       </div>
       {/* <DynamicCardTitle className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <DynamicCard
-          // src={"../../public/hero.mp4"}
+          // src={"../../public/hero.mp4"} 
           src={project1}
           title={<> Our Recent Projects</>}
           description="we offer a comprehensive range of MEP and BIM services, crafted to meet the unique needs of each client. Our services are designed to provide value at every stage of the project lifecycle, from conceptual design to execution. "

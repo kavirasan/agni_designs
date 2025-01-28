@@ -7,7 +7,7 @@ const AboutPage = () => {
   // Define the data object that contains all necessary details
 
   const data = {
-    Cbtitle: "About Us",
+    Cbtitle: "About Agni Design",
     CbDescription:
       "At AGNI, we redefine MEP (Mechanical, Electrical, Plumbing) design by integrating cutting-edge technology and sustainability. Our mission is to deliver high-quality, energy-efficient, and eco-friendly engineering solutions. We collaborate with architects and clients to create designs that are efficient, cost-effective, and environmentally responsible, bridging gaps in the industry and transforming complex ideas into sustainable solutions.",
 

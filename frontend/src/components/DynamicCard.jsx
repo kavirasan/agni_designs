@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
 
-const DynamicCard = ({ src, title, description, isComingSoon }) => {
+const DynamicCard = ({ src, title, description, isComingSoon,route }) => {
   return (
     <div className="relative size-full border-2 border-black/10 rounded-2xl">
       {/* <video
@@ -32,6 +32,7 @@ const DynamicCard = ({ src, title, description, isComingSoon }) => {
           )}
 
           <Button
+          route={route}
             id="helo"
             title="More Info"
             rightIcon={<TiLocationArrow />}

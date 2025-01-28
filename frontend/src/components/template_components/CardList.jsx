@@ -1,6 +1,6 @@
 import React from "react";
 import CustomCard from "./CustomCard";
-import AnimatedTitle from "../AnimatedTitle";
+import AnimatedTitle from "../TextAnimation/AnimatedTitle";
 
 const CardList = ({ CardTitle, CardData }) => {
   return (

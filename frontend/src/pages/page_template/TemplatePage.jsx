@@ -3,6 +3,7 @@ import CustomBanner from "../../components/CustomBanner";
 import ContentDescription from "../../components/template_components/ContentDescription";
 import CardList from "../../components/template_components/CardList";
 import CaseStudy from "../../components/template_components/CaseStudy";
+import bim from "../../assets/new_agni_images/6.png"
 
 const TemplatePage = (props) => {
   const {
@@ -23,7 +24,7 @@ const TemplatePage = (props) => {
     <div>
       <div>
         <CustomBanner
-          // image={bim}
+          image={bim}
           // image={}
           // title="Get Our Quote"
           title={Cbtitle}

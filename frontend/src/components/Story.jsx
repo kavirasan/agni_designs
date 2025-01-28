@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import AnimatedTitle from "./AnimatedTitle";
+import AnimatedTitle from "./TextAnimation/AnimatedTitle";
 import office from "../assets/new_agni_images/office1.jpg";
 import gsap from "gsap";
 import Button from "./Button";
@@ -79,6 +79,8 @@ const Story = () => {
               id="realm-btn"
               title="our Team"
               containerClass="mt-5"
+              route="/team"
+              
             />
           </div>
         </div>

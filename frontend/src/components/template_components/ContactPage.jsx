@@ -5,7 +5,7 @@ import { FaChevronDown } from "react-icons/fa";
 import { RxSwitch } from "react-icons/rx";
 import { MdLabelImportantOutline } from "react-icons/md";
 import { GiBubbleField } from "react-icons/gi";
-import AnimatedTitle from "../../components/AnimatedTitle";
+import AnimatedTitle from "../TextAnimation/AnimatedTitle";
 import office from "../../assets/new_agni_images/fulllogo.jpg"
 
 // import { Field, Label } from "@headlessui/react";

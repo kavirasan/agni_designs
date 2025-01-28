@@ -2,7 +2,7 @@ import React from "react";
 
 const ContentDescription = ({ descriptionTitle, descriptionPara }) => {
   return (
-    <div className="flex flex-col justify-center items-start mx-2 md:mx-40 gap-10 py-10">
+    <div className="flex flex-col justify-center items-start mx-2 mt-10  md:mx-40 gap-10 py-8">
       <p className="text-2xl font-bold text-center flex flex-col items-center ">
         {descriptionTitle}
         <span className="border-2 border-yellow-300 w-52 mt-2"></span>
