@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import CustomFooter from "../components/CustomFooter";
 import SEO from "../SEO/SEO";
 import { Helmet } from "react-helmet";

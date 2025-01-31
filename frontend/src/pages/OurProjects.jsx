@@ -2,7 +2,7 @@ import React from "react";
 import client from "../assets/clients/client_xs.png";
 import team from "../assets/clients/tvs.png"
 
-const Clients_Page = () => {
+const OurProjects = () => {
   const CardData = [
     {
       id: 1,
@@ -149,7 +149,7 @@ const Clients_Page = () => {
             </svg>
           </div>
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl text-center my-2 mb-10">
-                   Our Clients
+                   Our Projects
                   </p>
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
             <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -234,7 +234,7 @@ const Clients_Page = () => {
   );
 };
 
-export default Clients_Page;
+export default OurProjects;
 
 const ServiceCard = ({ icon, title, details,image }) => {
   return (
@@ -252,3 +252,4 @@ const ServiceCard = ({ icon, title, details,image }) => {
     </>
   );
 };
+

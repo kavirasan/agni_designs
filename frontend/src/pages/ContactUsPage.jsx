@@ -2,7 +2,11 @@ import React from "react";
 import CustomBanner from "../components/CustomBanner";
 import office from "../assets/new_agni_images/office2.jpg";
 
+
+
 const ContactUsPage = () => {
+
+
   return (
     <div>
       <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
@@ -60,11 +64,28 @@ const ContactUsPage = () => {
             </div>
           </div>
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-            <img
+            {/* <img
               alt=""
               src={office}
               className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] h-[30rem] object-cover"
-            />
+            /> */}
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23301.99234560162!2d80.19634769031333!3d12.968429638553479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525db5c1e8c4a7%3A0x59df5e4a3b671da5!2sSai%20Aircon%20solution!5e0!3m2!1sen!2sin!4v1738137407267!5m2!1sen!2sin"
+              width="900"
+              height="500"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Google Map"
+            ></iframe>
+            {/* <GoogleMap
+              mapContainerStyle={mapContainerStyle}
+              zoom={10}
+              center={center}
+            >
+              <Marker position={center} />
+            </GoogleMap> */}
           </div>
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">

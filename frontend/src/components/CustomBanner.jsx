@@ -5,14 +5,14 @@ import four from "../assets/new_agni_images/4.png"
 const CustomBanner = ({ image, title, description }) => {
   return (
     <div className="w-full h-[30rem]  flex flex-col justify-center items-center mx-2 md:px-20 gap-5">
-      <div className="absolute top-0 left-0 bg-white/40 w-full h-[34rem] z-10 " />
+      <div className="absolute top-0 left-0 bg-white/80 w-full h-[34rem] z-10 " />
       <img
         src={image}
-        className="absolute top-0 left-0 bg-white/70 w-full h-[34rem] object-cover object-center"
+        className="absolute top-0 left-0 bg-white/20 w-full h-[34rem] object-cover object-center"
       />
-      <AnimatedTitle title={title} containerClass=" z-30 !text-black" />
+      <AnimatedTitle title={title} containerClass="z-30 !text-black mt-20 "/>
 
-      <p className="mx-5 z-30 font-semibold text-center">{description}</p>
+      <p className="mx-5 z-30 text-sm md:text-lg text-center">{description}</p>
     </div>
   );
 };
