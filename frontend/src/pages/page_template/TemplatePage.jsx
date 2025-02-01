@@ -7,6 +7,7 @@ import bim from "../../assets/new_agni_images/6.png"
 
 const TemplatePage = (props) => {
   const {
+    CbImg,
     Cbtitle,
     CbDescription,
     descriptionTitle,
@@ -24,7 +25,7 @@ const TemplatePage = (props) => {
     <div>
       <div>
         <CustomBanner
-          image={bim}
+          image={CbImg}
           // image={}
           // title="Get Our Quote"
           title={Cbtitle}

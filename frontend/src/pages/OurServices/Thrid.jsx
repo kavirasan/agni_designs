@@ -1,5 +1,12 @@
 import React from 'react'
 import ServiceTemplate from "../page_template/ServiceTemplate"
+import img from "../../assets/services/electrical.jpg"
+import pic1 from "../../assets/services/mep/pic1.jpg"
+import pic2 from "../../assets/services/mep/pic2.jpg"
+import pic3 from "../../assets/services/mep/pic3.jpg"
+import pic4 from "../../assets/services/mep/pic4.jpg"
+import pic5 from "../../assets/services/mep/pic5.jpg"
+import pic6 from "../../assets/services/mep/pic6.jpg"
 
 const Thrid = () => {
 
@@ -15,7 +22,7 @@ const Thrid = () => {
             "Identification of potential defects and inefficiencies",
             "Detailed test reports with improvement recommendations",
           ],
-          image: "/images/third-party-mep-testing.jpg",
+          image: pic1
         },
         {
           title: "Mechanical System Testing",
@@ -28,7 +35,7 @@ const Thrid = () => {
             "Equipment vibration and noise level analysis",
             "Compliance verification with ASHRAE standards",
           ],
-          image: "/images/third-party-mechanical-testing.jpg",
+          image: pic2
         },
         {
           title: "Electrical System Testing & Inspection",
@@ -41,7 +48,7 @@ const Thrid = () => {
             "Verification of grounding and surge protection",
             "Compliance checks with NEC and IEC standards",
           ],
-          image: "/images/third-party-electrical-testing.jpg",
+          image: pic3
         },
         {
           title: "Plumbing System Testing",
@@ -54,7 +61,7 @@ const Thrid = () => {
             "Material and pipe integrity evaluation",
             "Adherence to plumbing codes and environmental regulations",
           ],
-          image: "/images/third-party-plumbing-testing.jpg",
+          image: pic4
         },
         {
           title: "Fire Protection System Testing",
@@ -67,7 +74,7 @@ const Thrid = () => {
             "Water flow and pressure testing for fire suppression systems",
             "Risk assessment and improvement recommendations",
           ],
-          image: "/images/third-party-fire-testing.jpg",
+          image: pic5
         },
       ];
     

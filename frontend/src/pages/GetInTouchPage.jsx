@@ -9,18 +9,8 @@ const GetInTouchPage = () => {
   }, []);
   return (
     <div>
-      <div>
-        {/* <CustomBanner
-          // image={bim}
-          title="Get Our Quote"
-          description="This layout will provide a comprehensive, professional, and user-friendly experience for visitors. The content should emphasize your expertise, quality of service, and sustainable design practices, creating a solid impression of AGNI Design Consultants as a leader in MEP design and BIM services."
-          overlayColor="rgba(0, 0, 0, 0.3)"
-        /> */}
-      </div>
-     
-      <ContactPage/>
-      
-      {/* <MasterForm /> */}
+      <div></div>
+      <ContactPage />
     </div>
   );
 };

@@ -1,6 +1,13 @@
 import React from 'react'
 import ServiceTemplate from "../page_template/ServiceTemplate"
 import img from "../../assets/projects/project1.png"
+import pic1 from "../../assets/services/mep/pic1.jpg"
+import pic2 from "../../assets/services/mep/pic2.jpg"
+import pic3 from "../../assets/services/mep/pic3.jpg"
+import pic4 from "../../assets/services/mep/pic4.jpg"
+import pic5 from "../../assets/services/mep/pic5.jpg"
+import pic6 from "../../assets/services/mep/pic6.jpg"
+import ScrollToTop from '../../utils/ScrollToTop'
 const BIM = () => {
     const BIM = [
         {
@@ -14,7 +21,7 @@ const BIM = () => {
             "Reduced errors and improved project outcomes",
             "Project delivery with higher accuracy and fewer revisions",
           ],
-          image: "/images/bim-implementation.jpg",
+          image:pic1,
         },
         {
           title: "3D BIM Modeling and Visualization",
@@ -27,7 +34,7 @@ const BIM = () => {
             "Optimized project scheduling using 3D modeling",
             "Enhanced coordination among different project teams",
           ],
-          image: "/images/bim-3d-modeling.jpg",
+          image: pic2,
         },
         {
           title: "BIM Coordination and Clash Detection",
@@ -40,7 +47,7 @@ const BIM = () => {
             "Increased project timeline predictability",
             "Comprehensive clash reports for quick resolution",
           ],
-          image: "/images/bim-coordination.jpg",
+          image:pic3,
         },
         {
           title: "BIM for Construction Sequencing and Planning",
@@ -53,7 +60,7 @@ const BIM = () => {
             "Risk management and mitigation planning",
             "Real-time updates and communication between teams",
           ],
-          image: "/images/bim-construction-planning.jpg",
+          image: pic4,
         },
         {
           title: "BIM for Facility Management and Operations",
@@ -66,7 +73,7 @@ const BIM = () => {
             "Efficient facility space management and asset utilization",
             "Prolonged building lifespan through predictive maintenance",
           ],
-          image: "/images/bim-facility-management.jpg",
+          image:pic5,
         },
         {
           title: "BIM for Energy Analysis and Sustainability",
@@ -79,7 +86,7 @@ const BIM = () => {
             "Evaluation of material efficiency and waste reduction",
             "Recommendations for improving building sustainability and reducing operational costs",
           ],
-          image: "/images/bim-energy-analysis.jpg",
+          image: pic6,
         },
       ];
     
@@ -108,7 +115,8 @@ const BIM = () => {
         imgCont4: "/images/mep-bim-client-solutions.jpg", // Replace with your image path
       };
   return (
-    <div><ServiceTemplate
+    <div>
+      <ServiceTemplate
     services={BIM}
     services1={BIM1}
   /></div>

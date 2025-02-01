@@ -1,5 +1,11 @@
 import React from "react";
 import ServiceTemplate from "../page_template/ServiceTemplate";
+import pic1 from "../../assets/services/mep/pic1.jpg"
+import pic2 from "../../assets/services/mep/pic2.jpg"
+import pic3 from "../../assets/services/mep/pic3.jpg"
+import pic4 from "../../assets/services/mep/pic4.jpg"
+import pic5 from "../../assets/services/mep/pic5.jpg"
+import pic6 from "../../assets/services/mep/pic6.jpg"
 
 const TechnicalDueDiligence = () => {
   const technicalDueDiligence1 = {
@@ -39,7 +45,7 @@ const TechnicalDueDiligence = () => {
         "Assessment of energy efficiency and sustainability measures",
         "Risk analysis for system failures and operational challenges",
       ],
-      image: "/images/mep-due-diligence.jpg",
+      image: pic1
     },
     {
       title: "Mechanical System Assessment",
@@ -52,7 +58,7 @@ const TechnicalDueDiligence = () => {
         "Examination of system lifespan and maintenance requirements",
         "Verification of compliance with ASHRAE and other mechanical standards",
       ],
-      image: "/images/mechanical-due-diligence.jpg",
+      image: pic2  
     },
     {
       title: "Electrical System Assessment",
@@ -65,7 +71,7 @@ const TechnicalDueDiligence = () => {
         "Low-voltage system assessment (fire alarms, security, and communication)",
         "Load calculations and fault current analysis",
       ],
-      image: "/images/electrical-due-diligence.jpg",
+      image: pic3 
     },
     {
       title: "Plumbing System Due Diligence",
@@ -78,7 +84,7 @@ const TechnicalDueDiligence = () => {
         "Verification of compliance with plumbing codes and environmental regulations",
         "Assessment of system lifespan and maintenance requirements",
       ],
-      image: "/images/plumbing-due-diligence.jpg",
+      image: pic4 
     },
     {
       title: "Fire Protection System Review",
@@ -91,7 +97,7 @@ const TechnicalDueDiligence = () => {
         "Verification of compliance with NFPA and local fire codes",
         "Identification of potential risks and improvement recommendations",
       ],
-      image: "/images/fire-protection-due-diligence.jpg",
+      image: pic5 
     },
     {
       title: "Sustainability and Energy Efficiency Audit",
@@ -104,7 +110,7 @@ const TechnicalDueDiligence = () => {
         "Review of compliance with LEED, BREEAM, and other sustainability standards",
         "Recommendations for improving energy performance and cost savings",
       ],
-      image: "/images/sustainability-due-diligence.jpg",
+      image: pic6
     },
   ];
 

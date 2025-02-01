@@ -2,12 +2,14 @@ import React from "react";
 import TemplatePage from "./page_template/TemplatePage";
 import team1 from "../assets/new_agni_images/fulllogo.jpg";
 import team from "../assets/new_agni_images/mep1.jpg";
+import img from "../assets/new_agni_images/office2.jpg"
 
 const AboutPage = () => {
   // Define the data object that contains all necessary details
 
   const data = {
     Cbtitle: "About Agni Design",
+    CbImg:img,
     CbDescription:
       "At AGNI, we redefine MEP (Mechanical, Electrical, Plumbing) design by integrating cutting-edge technology and sustainability. Our mission is to deliver high-quality, energy-efficient, and eco-friendly engineering solutions. We collaborate with architects and clients to create designs that are efficient, cost-effective, and environmentally responsible, bridging gaps in the industry and transforming complex ideas into sustainable solutions.",
 
@@ -196,6 +198,7 @@ const AboutPage = () => {
   return (
     <div>
       <TemplatePage
+      CbImg ={data.CbImg}
         Cbtitle={data.Cbtitle}
         CbDescription={data.CbDescription}
         descriptionTitle={data.descriptionTitle}

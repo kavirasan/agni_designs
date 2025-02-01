@@ -1,6 +1,12 @@
 import React from "react";
 import ServiceTemplate from "../page_template/ServiceTemplate";
 import img from "../../assets/services/mech_mep.jpg"
+import pic1 from "../../assets/services/mep/pic1.jpg"
+import pic2 from "../../assets/services/mep/pic2.jpg"
+import pic3 from "../../assets/services/mep/pic3.jpg"
+import pic4 from "../../assets/services/mep/pic4.jpg"
+import pic5 from "../../assets/services/mep/pic5.jpg"
+import pic6 from "../../assets/services/mep/pic6.jpg"
 const Mep = () => {
   const services = [
     {
@@ -14,7 +20,7 @@ const Mep = () => {
         "Use of advanced tools and software for precise modeling",
         "Sustainability-focused solutions for long-term benefits",
       ],
-      image: "/images/mep-design.jpg",
+      image: pic1,
     },
     {
       title: "Mechanical",
@@ -28,7 +34,7 @@ const Mep = () => {
         "Indoor air quality management",
         "Smoke control and extraction system design",
       ],
-      image: "/images/mechanical.jpg",
+      image: pic2,
     },
     {
       title: "Electrical",
@@ -43,7 +49,7 @@ const Mep = () => {
         "Electrical load analysis and optimization",
         "Energy metering and monitoring systems",
       ],
-      image: "/images/electrical.jpg",
+      image: pic3,
     },
     {
       title: "Plumbing",
@@ -57,7 +63,7 @@ const Mep = () => {
         "Water conservation strategies and fixtures",
         "Hydraulic calculations for efficient flow rates",
       ],
-      image: "/images/plumbing.jpg",
+      image: pic4,
     },
     {
       title: "Fire Protection",
@@ -71,7 +77,7 @@ const Mep = () => {
         "Emergency evacuation system planning",
         "Compliance with NFPA and local fire safety codes",
       ],
-      image: "/images/fire-protection.jpg",
+      image: pic5,
     },
     {
       title: "Sustainability and Energy Efficiency",
@@ -84,7 +90,7 @@ const Mep = () => {
         "Water conservation and recycling systems",
         "Energy-efficient equipment and system recommendations",
       ],
-      image: "/images/sustainability.jpg",
+      image: pic6,
     },
   ];
   const services1 = {

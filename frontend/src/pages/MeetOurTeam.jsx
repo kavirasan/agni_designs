@@ -1,6 +1,10 @@
 import React from "react";
+import mem1 from "../assets/new_agni_images/Mahendiran_principle.jpg";
+import mem2 from "../assets/new_agni_images/kamal_raja.jpg";
+import mem3 from "../assets/new_agni_images/denis_dias.jpg";
+import client from "../assets/new_agni_images/office2.jpg"
 
-const TeamCard = ({ img, name, title }) => {
+const TeamCard = ({ img, name, title, description }) => {
   return (
     <div className="rounded-lg bg-gray-100 shadow-lg p-6 text-center">
       <img
@@ -15,19 +19,7 @@ const TeamCard = ({ img, name, title }) => {
           href="#"
           className="text-gray-500 hover:text-blue-500 transition-colors"
         >
-          <i className="fab fa-twitter text-lg"></i>
-        </a>
-        <a
-          href="#"
-          className="text-gray-500 hover:text-blue-600 transition-colors"
-        >
-          <i className="fab fa-linkedin text-lg"></i>
-        </a>
-        <a
-          href="#"
-          className="text-gray-500 hover:text-pink-500 transition-colors"
-        >
-          <i className="fab fa-dribbble text-lg"></i>
+          <i className="fab fa-twitter text-sm">{description}</i>
         </a>
       </div>
     </div>
@@ -36,45 +28,26 @@ const TeamCard = ({ img, name, title }) => {
 
 const members = [
   {
-    img: "https://www.material-tailwind.com/img/avatar1.jpg",
-    name: "Ryan Samuel",
-    title: "Co-Founder",
+    img: mem3,
+    name: "DENIS DIAS",
+    title: "Chief Consultant",
+    description:
+      " 17 + Years experience in MEP design. Works as a senior Mechanical Engineer in building  services design, Supervision, Project Management, Processes and systems controlling the  assist of maintenance and up-dating Mechanical specifications. ",
   },
   {
-    img: "https://www.material-tailwind.com/img/avatar2.jpg",
-    name: "Ava Johnson",
-    title: "Project Manager",
+    img: mem1,
+    name: "MAHENDIRAN T",
+    title: "Principal Consultant",
+    description:
+      "19+ Years of construction experience professional with practical and design experience,  and solid understanding of MEP application. Demonstrated calibre ability of MEP  Engineering and awareness of latest construction standards and codes. High caliber  presentation, self-motivated negotiation and closing skills, decision making",
   },
   {
-    img: "https://www.material-tailwind.com/img/avatar5.jpg",
-    name: "Nora Hazel",
-    title: "UI/UX Designer",
-  },
-  {
-    img: "https://www.material-tailwind.com/img/avatar4.jpg",
-    name: "Otto Gonzalez",
-    title: "Marketing Specialist",
-  },
-  {
-    img: "https://www.material-tailwind.com/img/avatar6.jpg",
-    name: "Emma Roberts",
-    title: "UI Designer",
-  },
-  {
-    img: "https://www.material-tailwind.com/img/avatar3.jpg",
-    name: "William Pearce",
-    title: "Web Developer",
-  },
-  {
-    img: "https://www.material-tailwind.com/image/avatar7.svg",
-    name: "Bruce Mars",
-    title: "UI/UX Designer",
-  },
-  {
-    img: "https://www.material-tailwind.com/image/avatar8.svg",
-    name: "Annie Sprrat",
-    title: "Marketing Specialist",
-  },
+    img: mem2,
+    name: "KAMAAL  RAJA  ( Eng  M I M e c h E )",
+    title: "Chief Consultant",
+    description:
+      "16+ Years Experience in Mechanical Design. Specialized in BIM Modeling and HVAC  system design. Expertise in Industrial, Commercial, Retail projects and also Handled  Metro projects in Middle East and UK.",
+  }
 ];
 
 const MeetOurTeam = () => {
@@ -95,13 +68,14 @@ const MeetOurTeam = () => {
               exceptional service and innovative solutions.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-center justify-center">
             {members.map((member, index) => (
               <TeamCard
                 key={index}
                 img={member.img}
                 name={member.name}
                 title={member.title}
+                description={member.description}
               />
             ))}
           </div>
@@ -135,8 +109,8 @@ const MeetOurTeam = () => {
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
             alt=""
-            // src={client}
-            className="w-[48rem] max-w-none rounded-xl bg-white/20 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] h-[30rem] object-contain"
+            src={client}
+            className="w-[48rem] max-w-none rounded-xl bg-white/20 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] h-[30rem] object-cover"
           />
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
-import img from "../assets/new_agni_images/7.png";
+// import img from "../assets/new_agni_images/7.png";
+import img from "../assets/home/Picture16.jpg";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
@@ -27,8 +28,8 @@ const About = () => {
   });
 
   return (
-    <div id="about" className="min-h-screen w-screen ">
-      <div className="relative mb-8 mt-36 flex flex-col items-center gap-5 ">
+    <div id="about" className="min-h-screen w-screen bg-white ">
+      <div className="relative mb-8 pt-36 flex flex-col items-center gap-5 ">
         {/* <h2 className="text-md uppercase md:text-[20px]">
           Welcome to Agni Designs
         </h2> */}

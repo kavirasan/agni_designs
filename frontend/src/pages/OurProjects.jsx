@@ -1,117 +1,133 @@
 import React from "react";
 import client from "../assets/clients/client_xs.png";
 import team from "../assets/clients/tvs.png"
+import team1 from "../assets/clients/kpmg.png"
+import team2 from "../assets/clients/cloud.png"
+import team3 from "../assets/clients/hutch.png"
+import team4 from "../assets/clients/vgp.png"
+import team5 from "../assets/clients/valeo.png"
+import team6 from "../assets/clients/mind.jpg"
+import team7 from "../assets/clients/raymond.png"
+import team8 from "../assets/clients/tfe.png"
+import team9 from "../assets/clients/dantech.png"
+import team10 from "../assets/clients/guidehouse.png"
+import team11 from "../assets/clients/ge.png"
+import team12 from "../assets/clients/elena.png"
+import team13 from "../assets/clients/tm.png"
+import team14 from "../assets/clients/iopex.png"
+import team15 from "../assets/clients/budha.jpg"
 
 const OurProjects = () => {
   const CardData = [
-    {
-      id: 1,
-      title: "TVS Electronics - Office",
-      description:
-        "We have completed about 7500 sq. ft. in the Bengaluru site.",
-      image: team,
-    },
-    {
-      id: 2,
-      title: "KPMG - Innovation Centre",
-      description:
-        "We have completed about 3765 sq. ft. in the Bengaluru site.",
-      image: "team",
-    },
-    {
-      id: 3,
-      title: "Cloud Kinetics - Office",
-      description: "We have completed about 6500 sq. ft. in the Chennai site.",
-      image: "team",
-    },
-    {
-      id: 4,
-      title: "Hutchinson - Manufacturing Plant",
-      description:
-        "We have completed about 30000 sq. ft. in the Oragadam site.",
-      image: "team",
-    },
-    {
-      id: 5,
-      title: "VGP - Amusement Park",
-      description:
-        "We have completed about 150000 sq. ft. in the Chennai site.",
-      image: "team",
-    },
-    {
-      id: 6,
-      title: "Valeo - Commercial Building",
-      description:
-        "We have completed about 100000 sq. ft. in the Chennai site.",
-      image: "team",
-    },
-    {
-      id: 7,
-      title: "MindStudio - Commercial Building",
-      description: "We have completed about 5000 sq. ft. in the Chennai site.",
-      image: "team",
-    },
-    {
-      id: 8,
-      title: "Arymond - Industrial",
-      description: "We have completed about 30000 sq. ft. in the Chennai site.",
-      image: "team",
-    },
-    {
-      id: 9,
-      title: "TFE - Commercial Building",
-      description: "We have completed about 7500 sq. ft. in the Chennai site.",
-      image: "team",
-    },
-    {
-      id: 10,
-      title: "Dantech - Pharma Facility",
-      description: "We have completed about 12000 sq. ft. in the Chennai site.",
-      image: "team",
-    },
-    {
-      id: 11,
-      title: "Guide House - Commercial Building",
-      description: "We have completed about 57000 sq. ft. in the Chennai site.",
-      image: "team",
-    },
-    {
-      id: 12,
-      title: "GE - Cafeteria",
-      description: "We have completed about 500 sq. ft. in the Chennai site.",
-      image: "team",
-    },
-    {
-      id: 13,
-      title: "Elena - Office",
-      description: "We have completed about 1063 sq. ft. in the Chennai site.",
-      image: "team",
-    },
-    {
-      id: 14,
-      title: "TM Seating - Office",
-      description: "We have completed about 5000 sq. ft. in the Chennai site.",
-      image: "team",
-    },
-    {
-      id: 15,
-      title: "iopex - Office",
-      description: "We have completed about 10800 sq. ft. in the Indore site.",
-      image: "team",
-    },
-    {
-      id: 16,
-      title: "Buddhi Clinic - Health Care",
-      description: "We have completed about 2039.4 sq. ft. in the Indore site.",
-      image: "team",
-    },
-    {
-      id: 17,
-      title: "Metro Bazaar - Hotel",
-      description: "We have completed about 42000 sq. ft. in the Hosur site.",
-      image: "team",
-    },
-  ];
+      {
+        id: 1,
+        title: "TVS Electronics - Office",
+        description:
+          "We have completed about 7500 sq. ft. in the Bengaluru site.",
+        image: team,
+      },
+      {
+        id: 2,
+        title: "KPMG - Innovation Centre",
+        description:
+          "We have completed about 3765 sq. ft. in the Bengaluru site.",
+        image: team1,
+      },
+      {
+        id: 3,
+        title: "Cloud Kinetics - Office",
+        description: "We have completed about 6500 sq. ft. in the Chennai site.",
+        image: team2,
+      },
+      {
+        id: 4,
+        title: "Hutchinson - Manufacturing Plant",
+        description:
+          "We have completed about 30000 sq. ft. in the Oragadam site.",
+        image: team3,
+      },
+      {
+        id: 5,
+        title: "VGP - Amusement Park",
+        description:
+          "We have completed about 150000 sq. ft. in the Chennai site.",
+        image: team4,
+      },
+      {
+        id: 6,
+        title: "Valeo - Commercial Building",
+        description:
+          "We have completed about 100000 sq. ft. in the Chennai site.",
+        image: team5,
+      },
+      {
+        id: 7,
+        title: "MindStudio - Commercial Building",
+        description: "We have completed about 5000 sq. ft. in the Chennai site.",
+        image: team6,
+      },
+      {
+        id: 8,
+        title: "Arymond - Industrial",
+        description: "We have completed about 30000 sq. ft. in the Chennai site.",
+        image: team7,
+      },
+      {
+        id: 9,
+        title: "TFE - Commercial Building",
+        description: "We have completed about 7500 sq. ft. in the Chennai site.",
+        image: team8,
+      },
+      {
+        id: 10,
+        title: "Dantech - Pharma Facility",
+        description: "We have completed about 12000 sq. ft. in the Chennai site.",
+        image: team9,
+      },
+      {
+        id: 11,
+        title: "Guide House - Commercial Building",
+        description: "We have completed about 57000 sq. ft. in the Chennai site.",
+        image: team10,
+      },
+      {
+        id: 12,
+        title: "GE - Cafeteria",
+        description: "We have completed about 500 sq. ft. in the Chennai site.",
+        image: team11,
+      },
+      {
+        id: 13,
+        title: "Elena - Office",
+        description: "We have completed about 1063 sq. ft. in the Chennai site.",
+        image: team12,
+      },
+      {
+        id: 14,
+        title: "TM Seating - Office",
+        description: "We have completed about 5000 sq. ft. in the Chennai site.",
+        image: team13,
+      },
+      {
+        id: 15,
+        title: "iopex - Office",
+        description: "We have completed about 10800 sq. ft. in the Indore site.",
+        image: team14,
+      },
+      {
+        id: 16,
+        title: "Buddhi Clinic - Health Care",
+        description: "We have completed about 2039.4 sq. ft. in the Indore site.",
+        image: team15,
+      }
+      // ,
+      // {
+      //   id: 17,
+      //   title: "Metro Bazaar - Hotel",
+      //   description: "We have completed about 42000 sq. ft. in the Hosur site.",
+      //   image: team16,
+      // },
+    ];
   
   return (
     <>

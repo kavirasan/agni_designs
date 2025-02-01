@@ -1,6 +1,12 @@
 import React from 'react'
 import ServiceTemplate from "../page_template/ServiceTemplate"
 import img from "../../assets/services/fire.jpg"
+import pic1 from "../../assets/services/mep/pic1.jpg"
+import pic2 from "../../assets/services/mep/pic2.jpg"
+import pic3 from "../../assets/services/mep/pic3.jpg"
+import pic4 from "../../assets/services/mep/pic4.jpg"
+import pic5 from "../../assets/services/mep/pic5.jpg"
+import pic6 from "../../assets/services/mep/pic6.jpg"
 const Validating_Value_Engineering = () => {
       const Validating_Value_Engineering = [
         {
@@ -14,7 +20,7 @@ const Validating_Value_Engineering = () => {
             "Implementation of energy-efficient and sustainable solutions",
             "Compliance verification with local and international codes",
           ],
-          image: "/images/mep-validation.jpg",
+          image: pic1 
         },
         {
           title: "Mechanical Systems Validation & Optimization",
@@ -27,7 +33,7 @@ const Validating_Value_Engineering = () => {
             "Ductwork and ventilation design enhancements for improved airflow",
             "Assessment of system lifecycle costs and operational efficiency",
           ],
-          image: "/images/mechanical-validation.jpg",
+          image: pic2
         },
         {
           title: "Electrical Systems Validation & Value Engineering",
@@ -40,7 +46,7 @@ const Validating_Value_Engineering = () => {
             "Emergency and backup power system evaluation",
             "Compliance verification with national and international electrical standards",
           ],
-          image: "/images/electrical-validation.jpg",
+          image: pic3
         },
         {
           title: "Plumbing System Validation & Cost Optimization",
@@ -53,7 +59,7 @@ const Validating_Value_Engineering = () => {
             "Validation of stormwater and wastewater treatment system designs",
             "Compliance with plumbing and environmental safety standards",
           ],
-          image: "/images/plumbing-validation.jpg",
+          image: pic4
         },
         {
           title: "Fire Protection System Validation & Engineering",
@@ -66,7 +72,7 @@ const Validating_Value_Engineering = () => {
             "Assessment of fire risk mitigation strategies",
             "Verification of compliance with NFPA and local fire codes",
           ],
-          image: "/images/fire-protection-validation.jpg",
+          image: pic5
         },
         {
           title: "Sustainability & Energy Efficiency Validation",
@@ -79,7 +85,7 @@ const Validating_Value_Engineering = () => {
             "Water conservation and recycling system validation",
             "Cost-benefit analysis of energy-efficient upgrades",
           ],
-          image: "/images/sustainability-validation.jpg",
+          image: pic6
         },
       ];
     

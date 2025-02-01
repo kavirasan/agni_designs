@@ -206,14 +206,14 @@ const Navbar = () => {
                           className="py-2 w-64 text-sm text-gray-700 dark:text-gray-200"
                           aria-labelledby="dropdownHoverButton"
                         >
-                          <li>
+                          {/* <li>
                             <Link
                               to="/about"
                               className=" flex gap-2 items-center justify-center  px-4 py-2 font-semibold text-black  hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                             >
                               About Agni
                             </Link>
-                          </li>
+                          </li> */}
                           <li>
                             <Link
                               to="/client"
@@ -281,7 +281,7 @@ const Navbar = () => {
 
       {mobileNavVisible && (
         <div className="fixed max-w-xl w-full flex flex-col  items-start justify-center mt-10 gap-10">
-          <div className="flex flex-row justify-between items-center -my-10 w-full px-5">
+          <div className="flex flex-row justify-between items-center -my-10 w-80 px-5 ">
             <img
               src={logo}
               className=" w-20 h-20 object-contain rounded-full p-2"
@@ -291,15 +291,16 @@ const Navbar = () => {
               color="black"
               onClick={() => setMobileNavVisible(false)}
               // className="absolute -top-8 right-10 transition-all transform duration-900 ease-out rotate-90 translate-y-2"
-              className="mr-14"
+              className="mr-14 "
             />
           </div>
-          <span
+          <Link
             className="flex justify-center items-center ml-10 mt-10"
             onClick={() => setMobileNavVisible(false)}
+            to="/"
           >
             Home
-          </span>
+          </Link>
           <Dropdown
             label=""
             dismissOnClick={false}
@@ -310,22 +311,54 @@ const Navbar = () => {
             )}
           >
             <Dropdown.Item className=" py-2">
-              {" "}
-              MEP Design Services <MdOutlineArrowOutward className="mx-2" />
+              <Link
+                to="/mep"
+                className=" flex gap-2 items-center  px-4 py-2 font-semibold text-black  hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                onClick={() => setMobileNavVisible(false)}
+              >
+                MEP Design Services
+                <MdArrowOutward size={15} />
+              </Link>
             </Dropdown.Item>
             <Dropdown.Item className=" py-2">
-              {" "}
-              Technical Due Diligence <MdOutlineArrowOutward className="mx-2" />
+              <Link
+                to="/TechnicalDueDiligence"
+                className="flex gap-2 px-4 py-2 font-semibold text-black  hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                onClick={() => setMobileNavVisible(false)}
+              >
+                Technical Due Diligence
+                <MdArrowOutward size={15} />
+              </Link>
             </Dropdown.Item>
             <Dropdown.Item className=" py-2">
-              Validating & Value Engineering{" "}
-              <MdOutlineArrowOutward className="mx-2" />
+              <Link
+                to="/Validating_Value_Engineering"
+                className="flex gap-2 px-4 py-2 font-semibold text-black  hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                onClick={() => setMobileNavVisible(false)}
+              >
+                Validating & Value Engineering
+                <MdArrowOutward size={15} />
+              </Link>
             </Dropdown.Item>
             <Dropdown.Item className=" py-2">
-              MEP BIM Services <MdOutlineArrowOutward className="mx-2" />
+              <Link
+                to="/BIM"
+                className="flex gap-2 px-4 py-2 font-semibold text-black  hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                onClick={() => setMobileNavVisible(false)}
+              >
+                MEP BIM Services
+                <MdArrowOutward size={15} />
+              </Link>
             </Dropdown.Item>
             <Dropdown.Item className="py-2">
-              Third party Testing <MdOutlineArrowOutward className="mx-2" />
+              <Link
+                to="/Third"
+                className="flex gap-2 px-4 py-2 font-semibold text-black  hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                onClick={() => setMobileNavVisible(false)}
+              >
+                Third Party Testing
+                <MdArrowOutward size={15} />
+              </Link>
             </Dropdown.Item>
           </Dropdown>
           <Dropdown
@@ -337,25 +370,61 @@ const Navbar = () => {
               </span>
             )}
           >
-            <Dropdown.Item className=" py-2">About Agni</Dropdown.Item>
-            <Dropdown.Item className=" py-2">Our Clients</Dropdown.Item>
-            <Dropdown.Item className=" py-2">Our Projects</Dropdown.Item>
-            <Dropdown.Item className=" py-2">Our Softwares</Dropdown.Item>
-            <Dropdown.Item className="py-2">Our Team</Dropdown.Item>
+            {/* <Dropdown.Item className=" py-2">About Agni</Dropdown.Item> */}
+            <Dropdown.Item className=" py-2">
+              <Link
+                to="/client"
+                className="flex gap-2 justify-center px-4 py-2 font-semibold text-black  hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                onClick={() => setMobileNavVisible(false)}
+              >
+                Our Clients
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item className=" py-2">
+              {" "}
+              <Link
+                to="/software"
+                className="flex gap-2 justify-center px-4 py-2 font-semibold text-black  hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                onClick={() => setMobileNavVisible(false)}
+              >
+                Our Softwares
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item className=" py-2">
+              {" "}
+              <Link
+                to="/projects"
+                className="flex gap-2 justify-center px-4 py-2 font-semibold text-black  hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                onClick={() => setMobileNavVisible(false)}
+              >
+                Our Projects
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item className="py-2">
+              <Link
+                to="/team"
+                className="flex gap-2  justify-center px-4 py-2 font-semibold text-black  hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                onClick={() => setMobileNavVisible(false)}
+              >
+                Our Team
+              </Link>
+            </Dropdown.Item>
           </Dropdown>
 
-          <span
+          <Link
             className="flex justify-center items-center ml-10"
             onClick={() => setMobileNavVisible(false)}
+            to={"/contact"}
           >
-           Contact Us
-          </span>
-          <span
+            Contact Us
+          </Link>
+          <Link
             className="flex justify-center items-center ml-10"
             onClick={() => setMobileNavVisible(false)}
+            to={"/getintouch"}
           >
             Get a Quote
-          </span>
+          </Link>
         </div>
       )}
     </div>
