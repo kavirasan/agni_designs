@@ -1,6 +1,7 @@
 import React from "react";
 import CustomBanner from "../../components/CustomBanner";
-import ourservices from "../../assets/services/ourServices.jpg"
+import ourservices from "../../assets/services/ourServices.jpg";
+import AgniDesignSEO from "../../SEO/AgniDesignSEO";
 
 const services = [
   {
@@ -36,7 +37,23 @@ const services = [
 ];
 
 const ServicePage = () => {
+  const seo = {
+    title: "Our Services - Agni Design Consultant",
+    description: "Explore Agni Design Consultant's comprehensive MEP design, BIM, and technical services. We offer innovative solutions for diverse projects.",
+    keywords: "MEP, BIM, design, engineering, consulting, technical, due diligence, peer review, testing, commissioning", // Add more keywords
+    canonical: "https://www.yourwebsite.com/services", // Replace with your actual URL
+    openGraph: {
+      title: "Our Services - Agni Design Consultant",
+      description: "Explore Agni Design Consultant's comprehensive MEP design, BIM, and technical services. We offer innovative solutions for diverse projects.",
+      // You can add an OG image if available: image: "https://www.yourwebsite.com/images/services-og-image.jpg",
+      url: "https://www.yourwebsite.com/services", // Your website URL
+      type: "website",
+    },
+  };
   return (
+    <>
+     <AgniDesignSEO {...seo} /> 
+   
     <div className="bg-gray-100 py-8">
          <CustomBanner
           image={ourservices}
@@ -74,6 +91,7 @@ const ServicePage = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

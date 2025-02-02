@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 
 function AgniDesignSEO({ title, description, keywords, canonical }) {
+  
   return (
     <Helmet>
       <title>{title}</title>

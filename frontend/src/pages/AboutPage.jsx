@@ -2,7 +2,8 @@ import React from "react";
 import TemplatePage from "./page_template/TemplatePage";
 import team1 from "../assets/new_agni_images/fulllogo.jpg";
 import team from "../assets/new_agni_images/mep1.jpg";
-import img from "../assets/new_agni_images/office2.jpg"
+import img from "../assets/new_agni_images/office2.jpg";
+import AgniDesignSEO from "../SEO/AgniDesignSEO";
 
 const AboutPage = () => {
   // Define the data object that contains all necessary details
@@ -195,7 +196,26 @@ const AboutPage = () => {
     CsPara:
       "Our mission is to seamlessly integrate MEP design with architecture, ensuring precision and client satisfaction. We are committed to providing innovative, energy-efficient, and sustainable solutions. Our vision is to be the leading MEP consultancy, driving smart building technologies and contributing to the development of sustainable, future-ready cities.",
   };
+
+
+  const seo = {
+    title: "About Us - Agni Design Consultant",
+    description: "Learn about Agni Design Consultant, a leading provider of MEP design and BIM services. Discover our expertise, mission, and the clients we serve.",
+    keywords: "about us, company, team, mission, vision, MEP, BIM, engineering, design, consultants", // Add relevant keywords
+    canonical: "https://www.yourwebsite.com/about", // Replace with your actual URL
+    openGraph: {
+      title: "About Us - Agni Design Consultant",
+      description: "Learn about Agni Design Consultant, a leading provider of MEP design and BIM services. Discover our expertise, mission, and the clients we serve.",
+      // Add an OG image if you have a suitable one: image: "https://www.yourwebsite.com/images/about-us-image.jpg",
+      url: "https://www.yourwebsite.com/about", // Your website URL
+      type: "website",
+    },
+  };
+
   return (
+    <>
+    <AgniDesignSEO {...seo} />
+    
     <div>
       <TemplatePage
       CbImg ={data.CbImg}
@@ -212,6 +232,7 @@ const AboutPage = () => {
         CsImg={team1}
       />
     </div>
+    </>
   );
 };
 

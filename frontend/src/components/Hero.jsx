@@ -1,14 +1,15 @@
 import React, { useEffect, useRef, useState } from "react";
 import video from "../../public/hero.mp4";
-import video1 from "../assets/new_agni_images/Video2.mp4"
+import video1 from "../assets/new_agni_images/Video2.mp4";
 import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 import { ScrollTrigger } from "gsap/all";
 import TextAnimation from "./TextAnimation/TextAnimation";
+import { Helmet } from "react-helmet-async";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -93,6 +94,37 @@ const Hero = () => {
 
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden bg-white">
+      <Helmet>
+        <title>Agni Design Consultants | Innovating MEP Designs</title>
+        <meta
+          name="description"
+          content="Agni Design Consultants specialize in MEP designs with BIM and Revit expertise. Discover innovative design solutions with us."
+        />
+        <meta
+          name="keywords"
+          content="MEP design, BIM, Revit, Agni Design, architecture, engineering"
+        />
+        <meta
+          property="og:title"
+          content="Agni Design Consultants - Innovating MEP Designs"
+        />
+        <meta
+          property="og:description"
+          content="Agni Design Consultants specialize in MEP designs with BIM and Revit expertise. Discover innovative design solutions with us."
+        />
+        <meta property="og:image" content="/path-to-image.jpg" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Agni Design Consultants - Innovating MEP Designs"
+        />
+        <meta
+          name="twitter:description"
+          content="Agni Design Consultants specialize in MEP designs with BIM and Revit expertise."
+        />
+        <meta name="twitter:image" content="/path-to-image.jpg" />
+      </Helmet>
       {isLoading && (
         <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-white/50">
           <div className="three-body">
@@ -111,25 +143,20 @@ const Hero = () => {
             <div
               onClick={handleMiniVdClick}
               className="origin-center scale-50 opacity-0 transition-all duration-500 ease-in hover:scale-100 hover:opacity-100"
-            >
-              
-            </div>
+            ></div>
           </div>
 
           <video
-                ref={nextVideoRef}
-                //src={getVideoSrc(currentIndex + 1)}
-                src={video1}
-                loop
-                muted
-                id="current-video"
-                className="size-64 w-full h-screen origin-center scale-150 object-cover object-center "
-                onLoadedData={handleVideoLand}
-                autoPlay
-              />
-              
-
-         
+            ref={nextVideoRef}
+            //src={getVideoSrc(currentIndex + 1)}
+            src={video1}
+            loop
+            muted
+            id="current-video"
+            className="size-64 w-full h-screen origin-center scale-150 object-cover object-center "
+            onLoadedData={handleVideoLand}
+            autoPlay
+          />
         </div>
         <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-black/80">
           Let's Start
@@ -139,13 +166,11 @@ const Hero = () => {
           <div className="mt-24 px-4 sm:px-10 flex items-center flex-col">
             <h1 className="hero-heading text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-yellow-350 to-yellow-300 ">
               Agni <b>Design</b> <br /> Consultants
-            {/* <TextAnimation name={"Agni Design Consultant"}/> */}
+              {/* <TextAnimation name={"Agni Design Consultant"}/> */}
             </h1>
             <p className="mb-5 max-w-full Poppins font-semibold text-white/90 mt-5">
               Innovating MEP Designs <br /> with BIM and Revit Expertise
             </p>
-          
-             
           </div>
           {/* <div className="flex justify-center z-60" onClick={() => console.log("clicked")}>
 
@@ -160,8 +185,8 @@ const Hero = () => {
         </div>
       </div>
       <h1 className="special-font hero-heading absolute bottom-5 right-5  text-orange-500">
-          Let's Start
-        </h1>
+        Let's Start
+      </h1>
     </div>
   );
 };

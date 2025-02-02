@@ -6,8 +6,11 @@ import pic2 from "../../assets/services/mech_mep.jpg"
 import pic3 from "../../assets/services/electrical.jpg"
 import pic4 from "../../assets/services/mep/pic6.png"
 import pic5 from "../../assets/services/fire.jpg"
-import pic6 from "../../assets/services/bim/pic7.png"
+import pic6 from "../../assets/services/bim/pic7.png";
+import AgniDesignSEO from '../../SEO/AgniDesignSEO';
+
 const Validating_Value_Engineering = () => {
+
       const Validating_Value_Engineering = [
         {
           title: "MEP Design Validation & Value Engineering",
@@ -113,13 +116,31 @@ const Validating_Value_Engineering = () => {
           "We collaborate closely with clients to provide tailored solutions that improve performance while maintaining project budgets and timelines.",
         imgCont4: "/images/mep-client-solutions.png", // Replace with your image path
       };
+
+      const seo = {
+        title: "MEP Design Validation & Value Engineering - Agni Design Consultant",
+        description: "Agni Design Consultant provides MEP design validation and value engineering services. We optimize designs for performance, cost-effectiveness, compliance, and sustainability.",
+        keywords: "MEP, design validation, value engineering, cost optimization, performance improvement, compliance, sustainability, energy efficiency, engineering, consulting",  // Add more keywords
+        canonical: "https://www.yourwebsite.com/mep-design-validation-value-engineering", // **REPLACE WITH YOUR ACTUAL URL**
+        openGraph: {
+            title: "MEP Design Validation & Value Engineering - Agni Design Consultant",
+            description: "Agni Design Consultant provides MEP design validation and value engineering services. We optimize designs for performance, cost-effectiveness, compliance, and sustainability.",
+            url: "https://www.yourwebsite.com/mep-design-validation-value-engineering", // **REPLACE WITH YOUR ACTUAL URL**
+            type: "website",
+            // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/validation-og-image.jpg",
+        },
+    };
+
   return (
+    <>
+                <AgniDesignSEO {...seo} /> 
     <div>
        <ServiceTemplate
           services={Validating_Value_Engineering}
           services1={Validating_Value_Engineering1}
-        />
+          />
     </div>
+          </>
   )
 }
 

@@ -7,8 +7,8 @@ const SEO = () => {
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          "name": "Agni Designs Consultant",
+          "@type": "Agni designs",
+          "name": "Agni Designs Consultants",
           "description":
             "At AGNI, we aim to redefine engineering standards in MEP design by integrating technology and sustainability in all our projects.",
           "url": "https://agnidesign.netlify.app",

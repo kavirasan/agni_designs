@@ -15,6 +15,7 @@ import pic10 from "../assets/software/pic10.png";
 import pic11 from "../assets/software/pic11.png";
 import pic12 from "../assets/software/pic12.png";
 import pic13 from "../assets/software/pic13.png";
+import AgniDesignSEO from "../SEO/AgniDesignSEO";
 
 
 const OurSoftwares = () => {
@@ -117,6 +118,12 @@ const OurSoftwares = () => {
 
   return (
     <>
+    <AgniDesignSEO
+        title="Our Software Solutions - Agni Design"
+        description="Explore our innovative software solutions designed for MEP design and project management, including BIM integration, automation, and real-time collaboration."
+        keywords="software solutions, MEP design, BIM, automation, Agni Design"
+        canonical="https://www.agnidesign.com/our-software-solutions"
+      />
       <div>
         <div className="relative isolate overflow-hidden bg-yellow-50 px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
           <div className="absolute inset-0 -z-10 overflow-hidden">

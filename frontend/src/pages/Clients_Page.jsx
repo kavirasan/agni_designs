@@ -17,6 +17,7 @@ import team13 from "../assets/clients/tm.png"
 import team14 from "../assets/clients/iopex.png"
 import team15 from "../assets/clients/budha.jpg"
 // import team16 from "../assets/clients/cartech.png"
+import AgniDesignSEO from "../SEO/AgniDesignSEO";
 
 const Clients_Page = () => {
 
@@ -132,8 +133,24 @@ const Clients_Page = () => {
   ];
   
 
+  const seo = {
+    title: "Our Clients - Agni Design Consultant",
+    description: "See the prestigious clients who have trusted Agni Design Consultant for their MEP and BIM needs. We've delivered successful projects for diverse industries.",
+    keywords: "clients, projects, MEP, BIM, engineering, design, testimonials, portfolio, case studies", // Add more relevant keywords
+    canonical: "https://www.yourwebsite.com/clients", // Replace with your actual URL
+    openGraph: {
+      title: "Our Clients - Agni Design Consultant",
+      description: "See the prestigious clients who have trusted Agni Design Consultant for their MEP and BIM needs. We've delivered successful projects for diverse industries.",
+       // Add an OG image if you have a suitable one
+      url: "https://www.yourwebsite.com/clients", // Your website URL
+      type: "website",
+    },
+  };
+
+
   return (
     <>
+    <AgniDesignSEO {...seo} />
       <div>
         <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
           <div className="absolute inset-0 -z-10 overflow-hidden">

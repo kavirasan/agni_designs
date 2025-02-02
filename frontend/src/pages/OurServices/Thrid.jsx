@@ -6,7 +6,8 @@ import pic2 from "../../assets/services/third/pic2.png"
 import pic4 from "../../assets/services/third/pic3.png"
 import pic3 from "../../assets/services/third/pic4.png"
 import pic5 from "../../assets/services/third/pic5.png"
-import pic6 from "../../assets/services/third/pic6.png"
+import pic6 from "../../assets/services/third/pic6.png";
+import AgniDesignSEO from '../../SEO/AgniDesignSEO'
 
 const Thrid = () => {
 
@@ -102,14 +103,30 @@ const Thrid = () => {
           "Our detailed test reports provide actionable insights, helping stakeholders make informed decisions for project optimization.",
         imgCont4: "/images/third-party-reporting.png", // Replace with your image path
       };
+      const seo = {
+        title: "Third-Party Testing Services - Agni Design Consultant",
+        description: "Agni Design Consultant provides independent third-party testing for MEP systems. We ensure compliance, reliability, and performance through unbiased evaluations and rigorous testing.",
+        keywords: "third party testing, MEP testing, independent testing, compliance testing, performance testing, safety testing, quality assurance, inspection, certification", // Add more keywords
+        canonical: "https://www.yourwebsite.com/third-party-testing", // **REPLACE WITH YOUR ACTUAL URL**
+        openGraph: {
+            title: "Third-Party Testing Services - Agni Design Consultant",
+            description: "Agni Design Consultant provides independent third-party testing for MEP systems. We ensure compliance, reliability, and performance through unbiased evaluations and rigorous testing.",
+            url: "https://www.yourwebsite.com/third-party-testing", // **REPLACE WITH YOUR ACTUAL URL**
+            type: "website",
+            // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/third-party-og-image.jpg",
+        },
+    };
     
   return (
+    <>
+    <AgniDesignSEO {...seo} />
     <div>
        <ServiceTemplate
           services={Thrid}
           services1={Thrid1}
-        />
+          />
     </div>
+          </>
   )
 }
 

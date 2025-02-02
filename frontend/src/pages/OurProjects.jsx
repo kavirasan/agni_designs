@@ -1,5 +1,6 @@
 import React from "react";
 import project2 from "../assets/projects/project1.png";
+import AgniDesignSEO from "../SEO/AgniDesignSEO";
 
 const OurProjects = () => {
   const CardData = [
@@ -52,9 +53,16 @@ const OurProjects = () => {
       image: "team",
     },
   ];
+  const seo = {  // Define your SEO data
+    title: "Our Projects - Agni Design Consultant",
+    description: "Explore our diverse portfolio of BIM modeling, MEP design, and 2D drafting projects. We specialize in delivering cutting-edge, sustainable design solutions for clients worldwide.",
+    keywords: "BIM modeling, MEP design, 2D drafting, Revit, Navisworks, Microstation, sustainable design, architecture, engineering, construction, Ireland, UK, Italy, US",
+    canonical: "https://www.yourwebsite.com/projects", // Replace with your actual URL
+  };
 
   return (
     <>
+     <AgniDesignSEO {...seo} />
       <div>
         <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
           <div className="absolute inset-0 -z-10 overflow-hidden">

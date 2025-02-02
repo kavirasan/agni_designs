@@ -1,14 +1,28 @@
 import React from "react";
 import CustomBanner from "../components/CustomBanner";
 import office from "../assets/new_agni_images/office2.jpg";
+import AgniDesignSEO from "../SEO/AgniDesignSEO";
 
 
 
 const ContactUsPage = () => {
-
+  const seo = {
+    title: "Contact Us - Agni Design Consultant",
+    description: "Get in touch with Agni Design Consultant for MEP technical due diligence and innovative engineering solutions. Contact us via phone, email, or visit our office.",
+    keywords: "contact, address, phone, email, MEP, technical, due diligence, engineering, solutions, Chennai", // Add relevant keywords
+    canonical: "https://www.yourwebsite.com/contact", // Replace with your actual URL
+    openGraph: { // For better social media sharing
+      title: "Contact Us - Agni Design Consultant",
+      description: "Get in touch with Agni Design Consultant for MEP technical due diligence and innovative engineering solutions. Contact us via phone, email, or visit our office.",
+      // You can add an image if relevant: image: "https://www.yourwebsite.com/images/contact-us-image.jpg",
+      url: "https://www.yourwebsite.com/contact", // Your website URL
+      type: "website",
+    },
+  };
 
   return (
     <div>
+      <AgniDesignSEO {...seo} />
       <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <svg

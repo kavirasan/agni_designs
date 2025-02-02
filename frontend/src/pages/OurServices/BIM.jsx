@@ -8,7 +8,25 @@ import pic4 from "../../assets/services/bim/pic4.png"
 import pic5 from "../../assets/services/bim/pic5.png"
 import pic6 from "../../assets/services/bim/pic6.png"
 import ScrollToTop from '../../utils/ScrollToTop'
+import AgniDesignSEO from '../../SEO/AgniDesignSEO';
+
+
 const BIM = () => {
+
+  const seo = {
+    title: "MEP BIM Services - Agni Design Consultant",
+    description: "Agni Design Consultant offers cutting-edge MEP BIM services, enhancing collaboration, accuracy, and efficiency in your projects. Explore our BIM solutions.",
+    keywords: "MEP, BIM, building information modeling, construction, design, engineering, coordination, clash detection, energy analysis, facility management", // Add relevant keywords
+    canonical: "https://www.yourwebsite.com/bim", // **REPLACE WITH YOUR ACTUAL URL**
+    openGraph: {
+        title: "MEP BIM Services - Agni Design Consultant",
+        description: "Agni Design Consultant offers cutting-edge MEP BIM services, enhancing collaboration, accuracy, and efficiency in your projects. Explore our BIM solutions.",
+        url: "https://www.yourwebsite.com/bim", // **REPLACE WITH YOUR ACTUAL URL**
+        type: "website",
+        // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/bim-og-image.jpg",
+    },
+};
+
     const BIM = [
         {
           title: "BIM Implementation and Integration",
@@ -115,11 +133,14 @@ const BIM = () => {
         imgCont4: "/images/mep-bim-client-solutions.png", // Replace with your image path
       };
   return (
+    <>
+    <AgniDesignSEO {...seo} /> 
     <div>
       <ServiceTemplate
     services={BIM}
     services1={BIM1}
-  /></div>
+    /></div>
+    </>
   )
 }
 

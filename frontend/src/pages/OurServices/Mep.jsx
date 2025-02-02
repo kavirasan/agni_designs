@@ -6,8 +6,23 @@ import pic2 from "../../assets/services/mep/pic2.png"
 import pic3 from "../../assets/services/mep/pic3.png"
 import pic5 from "../../assets/services/mep/pic4.png"
 import pic4 from "../../assets/services/mep/pic5.png"
-import pic6 from "../../assets/services/bim/pic7.png"
+import pic6 from "../../assets/services/bim/pic7.png";
+import AgniDesignSEO from "../../SEO/AgniDesignSEO";
 const Mep = () => {
+
+  const seo = {
+    title: "MEP Design Services - Agni Design Consultant",
+    description: "Agni Design Consultant provides comprehensive MEP design services, specializing in mechanical, electrical, plumbing, and fire protection systems. We deliver innovative and sustainable solutions.",
+    keywords: "MEP, mechanical, electrical, plumbing, fire protection, design, engineering, consulting, sustainability, energy efficiency, HVAC, electrical systems, plumbing systems", // Add more keywords as needed
+    canonical: "https://www.yourwebsite.com/mep", // **REPLACE WITH YOUR ACTUAL URL**
+    openGraph: {
+        title: "MEP Design Services - Agni Design Consultant",
+        description: "Agni Design Consultant provides comprehensive MEP design services, specializing in mechanical, electrical, plumbing, and fire protection systems. We deliver innovative and sustainable solutions.",
+        url: "https://www.yourwebsite.com/mep", // **REPLACE WITH YOUR ACTUAL URL**
+        type: "website",
+        // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/mep-og-image.jpg",
+    },
+};
   const services = [
     {
       title: "MEP Design Services",
@@ -93,6 +108,7 @@ const Mep = () => {
       image: pic6,
     },
   ];
+
   const services1 = {
     title: "MEP Design Services",
     description:
@@ -118,9 +134,12 @@ const Mep = () => {
     imgCont4: "/images/mep-clients.png", // Replace with your image path
   };
   return (
+    <>
+    <AgniDesignSEO {...seo} />
     <div>
       <ServiceTemplate services={services} services1={services1} />
     </div>
+    </>
   );
 };
 

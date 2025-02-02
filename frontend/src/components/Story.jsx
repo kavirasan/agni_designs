@@ -3,6 +3,7 @@ import AnimatedTitle from "./TextAnimation/AnimatedTitle";
 import office from "../assets/new_agni_images/office1.jpg";
 import gsap from "gsap";
 import Button from "./Button";
+import AgniDesignSEO from "../SEO/AgniDesignSEO";
 
 const Story = () => {
   const frameRef = useRef(null);
@@ -47,7 +48,23 @@ const Story = () => {
     });
   };
 
+  const seo = {
+    title: "Our Story - Agni Design Consultant",
+    description: "Meet the dedicated professionals behind Agni Design Consultant. Learn about our team, expertise, and commitment to delivering exceptional MEP and BIM solutions.",
+    keywords: "team, about us, story, company, professionals, expertise, MEP, BIM, design, engineering, consulting", // Add more keywords
+    canonical: "https://www.yourwebsite.com/story", // **REPLACE WITH YOUR ACTUAL URL**
+    openGraph: {
+        title: "Our Story - Agni Design Consultant",
+        description: "Meet the dedicated professionals behind Agni Design Consultant. Learn about our team, expertise, and commitment to delivering exceptional MEP and BIM solutions.",
+        url: "https://www.yourwebsite.com/story", // **REPLACE WITH YOUR ACTUAL URL**
+        type: "website",
+        // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/story-og-image.jpg",
+    },
+};
+
   return (
+    <>
+    <AgniDesignSEO {...seo} />
     <section id="story" className="min-h-dvh w-screen bg-white text-black-50">
       <div className="flex size-full flex-col items-center py-10 pb-24">
         <p className="text-sm uppercase md:text-[20px]">Meet Our Team</p>
@@ -86,6 +103,7 @@ const Story = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

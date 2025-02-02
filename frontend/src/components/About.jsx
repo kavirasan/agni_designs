@@ -5,6 +5,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import AnimatedTitle from "./TextAnimation/AnimatedTitle";
+import AgniDesignSEO from "../SEO/AgniDesignSEO";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -27,8 +28,25 @@ const About = () => {
     });
   });
 
+  const seo = {
+    title: "About Us - Agni Design Consultant",
+    description: "Learn about Agni Design Consultant's expertise in MEP design and our commitment to delivering sustainable engineering solutions. Discover our team's experience and innovative approach.",
+    keywords: "about us, company, team, expertise, MEP, design, engineering, consulting, sustainable solutions, innovation", // Add more keywords
+    canonical: "https://www.yourwebsite.com/about", // **REPLACE WITH YOUR ACTUAL URL**
+    openGraph: {
+        title: "About Us - Agni Design Consultant",
+        description: "Learn about Agni Design Consultant's expertise in MEP design and our commitment to delivering sustainable engineering solutions. Discover our team's experience and innovative approach.",
+        url: "https://www.yourwebsite.com/about", // **REPLACE WITH YOUR ACTUAL URL**
+        type: "website",
+        // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/about-og-image.jpg",
+    },
+};
+
+
   return (
-    <div id="about" className="min-h-screen w-screen bg-white ">
+    <>
+     <AgniDesignSEO {...seo} /> 
+     <div id="about" className="min-h-screen w-screen bg-white ">
       <div className="relative mb-8 pt-36 flex flex-col items-center gap-5 ">
         {/* <h2 className="text-md uppercase md:text-[20px]">
           Welcome to Agni Designs
@@ -60,6 +78,8 @@ const About = () => {
         </div>
       </div>
     </div>
+    </>
+   
   );
 };
 

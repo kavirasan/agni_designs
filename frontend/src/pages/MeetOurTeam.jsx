@@ -2,10 +2,19 @@ import React from "react";
 import mem1 from "../assets/new_agni_images/Mahendiran_principle.jpg";
 import mem2 from "../assets/new_agni_images/kamal_raja.jpg";
 import mem3 from "../assets/new_agni_images/denis_dias.jpg";
-import client from "../assets/new_agni_images/office2.jpg"
+import client from "../assets/new_agni_images/office2.jpg";
+import AgniDesignSEO from "../SEO/AgniDesignSEO";
 
 const TeamCard = ({ img, name, title, description }) => {
+  const seo = {
+    title: "Meet Our Team - Agni Design Consultant",
+    description: "Get to know the talented individuals behind Agni Design Consultant. Our team of experts is dedicated to delivering innovative and high-quality design solutions.",
+    keywords: "team, members, consultants, designers, engineers, BIM, MEP, architecture, construction, expertise", // Add relevant keywords
+    canonical: "https://www.yourwebsite.com/team", // Replace with your actual URL
+  };
   return (
+    <>
+    <AgniDesignSEO {...seo} />
     <div className="rounded-lg bg-gray-100 shadow-lg p-6 text-center">
       <img
         src={img}
@@ -23,6 +32,7 @@ const TeamCard = ({ img, name, title, description }) => {
         </a>
       </div>
     </div>
+    </>
   );
 };
 

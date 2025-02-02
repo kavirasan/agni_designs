@@ -9,9 +9,25 @@ import banner from "../assets/herobg1.jpg"
 import software from "../assets/new_agni_images/software.jpeg"
 import clients from "../assets/clients/client_xs.png"
 import project1 from "../assets/projects/project2.png"
+import AgniDesignSEO from "../SEO/AgniDesignSEO";
 
 const Features = () => {
+  const seo = {
+    title: "Explore Agni Designs - MEP and BIM Services",
+    description: "Agni Design Consultants offers cutting-edge MEP and BIM solutions. Discover our expertise, recent projects, clients, and specialized software.",
+    keywords: "MEP, BIM, design, engineering, consulting, mechanical, electrical, plumbing, fire protection, software, clients, projects", // Add more keywords
+    canonical: "https://www.yourwebsite.com/features", // **REPLACE WITH YOUR ACTUAL URL**
+    openGraph: {
+        title: "Explore Agni Designs - MEP and BIM Services",
+        description: "Agni Design Consultants offers cutting-edge MEP and BIM solutions. Discover our expertise, recent projects, clients, and specialized software.",
+        url: "https://www.yourwebsite.com/features", // **REPLACE WITH YOUR ACTUAL URL**
+        type: "website",
+        // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/features-og-image.jpg",
+    },
+};
   return (
+    <>
+    <AgniDesignSEO {...seo} />
     <section className="bg-slate-50 pb-5 md:pl-5 px-5">
       <div className="container mx-auto px-3 md:px-10">
         <div className="px-5 pt-14 pb-5">
@@ -79,6 +95,7 @@ const Features = () => {
       </DynamicCardTitle> */}
      
     </section>
+    </>
   );
 };
 

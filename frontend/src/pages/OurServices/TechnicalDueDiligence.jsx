@@ -6,9 +6,11 @@ import pic2 from "../../assets/services/tech/pic2.png"
 import pic3 from "../../assets/services/tech/pic3.png"
 import pic4 from "../../assets/services/tech/pic5.png"
 import pic5 from "../../assets/services/tech/pic6.png"
-import pic6 from "../../assets/services/tech/pic7.png"
+import pic6 from "../../assets/services/tech/pic7.png";
+import AgniDesignSEO from "../../SEO/AgniDesignSEO";
 
 const TechnicalDueDiligence = () => {
+
   const technicalDueDiligence1 = {
     title: "Technical Due Diligence",
     description:
@@ -114,14 +116,30 @@ const TechnicalDueDiligence = () => {
       image: pic6
     },
   ];
+  const seo = {
+    title: "Technical Due Diligence Services - Agni Design Consultant",
+    description: "Agni Design Consultant offers comprehensive Technical Due Diligence (TDD) for MEP systems. We assess integrity, efficiency, and compliance to mitigate risks and ensure sustainability.",
+    keywords: "technical due diligence, TDD, MEP, mechanical, electrical, plumbing, engineering, consulting, assessment, risk mitigation, compliance, sustainability, energy efficiency", // Add relevant keywords
+    canonical: "https://www.yourwebsite.com/technical-due-diligence", // **REPLACE WITH YOUR ACTUAL URL**
+    openGraph: {
+        title: "Technical Due Diligence Services - Agni Design Consultant",
+        description: "Agni Design Consultant offers comprehensive Technical Due Diligence (TDD) for MEP systems. We assess integrity, efficiency, and compliance to mitigate risks and ensure sustainability.",
+        url: "https://www.yourwebsite.com/technical-due-diligence", // **REPLACE WITH YOUR ACTUAL URL**
+        type: "website",
+        // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/tdd-og-image.jpg",
+    },
+};
 
   return (
+    <>
+      <AgniDesignSEO {...seo} /> 
     <div>
       <ServiceTemplate
         services={technicalDueDiligence}
         services1={technicalDueDiligence1}
-      />
+        />
     </div>
+        </>
   );
 };
 
