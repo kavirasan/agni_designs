@@ -1,11 +1,12 @@
 import React from "react";
 import ServiceTemplate from "../page_template/ServiceTemplate";
-import pic1 from "../../assets/services/mep/pic1.jpg"
-import pic2 from "../../assets/services/mep/pic2.jpg"
-import pic3 from "../../assets/services/mep/pic3.jpg"
-import pic4 from "../../assets/services/mep/pic4.jpg"
-import pic5 from "../../assets/services/mep/pic5.jpg"
-import pic6 from "../../assets/services/mep/pic6.jpg"
+import img from "../../assets/services/tech/pic5.png"
+import pic1 from "../../assets/services/tech/pic1.png"
+import pic2 from "../../assets/services/tech/pic2.png"
+import pic3 from "../../assets/services/tech/pic3.png"
+import pic4 from "../../assets/services/tech/pic5.png"
+import pic5 from "../../assets/services/tech/pic6.png"
+import pic6 from "../../assets/services/tech/pic7.png"
 
 const TechnicalDueDiligence = () => {
   const technicalDueDiligence1 = {
@@ -18,19 +19,19 @@ const TechnicalDueDiligence = () => {
     imgCont1Title: "Comprehensive System Assessment",
     imgCont1Desc:
       "We conduct a detailed evaluation of existing MEP systems, analyzing design integrity, operational efficiency, and compliance with local and international standards.",
-    imgCont1: "/images/tdd-assessment.jpg",
+    imgCont1: img,
     imgCont2Title: "Risk Identification & Mitigation",
     imgCont2Desc:
       "Our experts identify potential risks, inefficiencies, and non-compliance issues, providing strategic recommendations to optimize system performance and reduce liabilities.",
-    imgCont2: "/images/tdd-risk.jpg",
+    imgCont2: "/images/tdd-risk.png",
     imgCont3Title: "Sustainability & Energy Efficiency",
     imgCont3Desc:
       "We assess energy consumption patterns, recommend sustainable solutions, and integrate energy-efficient practices to enhance overall building performance.",
-    imgCont3: "/images/tdd-sustainability.jpg",
+    imgCont3: "/images/tdd-sustainability.png",
     imgCont4Title: "Regulatory Compliance & Standards",
     imgCont4Desc:
       "Our due diligence ensures adherence to national and international MEP standards, building codes, and safety regulations, mitigating legal and operational risks.",
-    imgCont4: "/images/tdd-compliance.jpg",
+    imgCont4: "/images/tdd-compliance.png",
   };
 
   const technicalDueDiligence = [

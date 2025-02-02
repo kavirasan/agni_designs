@@ -1,12 +1,12 @@
 import React from 'react'
 import ServiceTemplate from "../page_template/ServiceTemplate"
 import img from "../../assets/services/electrical.jpg"
-import pic1 from "../../assets/services/mep/pic1.jpg"
-import pic2 from "../../assets/services/mep/pic2.jpg"
-import pic3 from "../../assets/services/mep/pic3.jpg"
-import pic4 from "../../assets/services/mep/pic4.jpg"
-import pic5 from "../../assets/services/mep/pic5.jpg"
-import pic6 from "../../assets/services/mep/pic6.jpg"
+import pic1 from "../../assets/services/third/pic1.png"
+import pic2 from "../../assets/services/third/pic2.png"
+import pic4 from "../../assets/services/third/pic3.png"
+import pic3 from "../../assets/services/third/pic4.png"
+import pic5 from "../../assets/services/third/pic5.png"
+import pic6 from "../../assets/services/third/pic6.png"
 
 const Thrid = () => {
 
@@ -92,15 +92,15 @@ const Thrid = () => {
         imgCont2Title: "Code Compliance & Certification",
         imgCont2Desc:
           "We verify MEP installations against international and local codes, providing detailed reports and certifications for regulatory approvals.",
-        imgCont2: "/images/third-party-compliance.jpg", // Replace with your image path
+        imgCont2: "/images/third-party-compliance.png", // Replace with your image path
         imgCont3Title: "Performance & Safety Testing",
         imgCont3Desc:
           "Agni conducts rigorous performance tests, identifying inefficiencies and ensuring that MEP systems function at optimal capacity.",
-        imgCont3: "/images/third-party-safety.jpg", // Replace with your image path
+        imgCont3: "/images/third-party-safety.png", // Replace with your image path
         imgCont4Title: "Comprehensive Reporting & Insights",
         imgCont4Desc:
           "Our detailed test reports provide actionable insights, helping stakeholders make informed decisions for project optimization.",
-        imgCont4: "/images/third-party-reporting.jpg", // Replace with your image path
+        imgCont4: "/images/third-party-reporting.png", // Replace with your image path
       };
     
   return (

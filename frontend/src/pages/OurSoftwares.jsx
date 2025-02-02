@@ -1,135 +1,119 @@
 import React from "react";
 import client from "../assets/clients/client_xs.png";
-// import team from "../assets/clients/tvs.png";
-import team from "../assets/clients/tvs.png"
-import team1 from "../assets/clients/kpmg.png"
-import team2 from "../assets/clients/cloud.png"
-import team3 from "../assets/clients/hutch.png"
-import team4 from "../assets/clients/vgp.png"
-import team5 from "../assets/clients/valeo.png"
-import team6 from "../assets/clients/mind.jpg"
-import team7 from "../assets/clients/raymond.png"
-import team8 from "../assets/clients/tfe.png"
-import team9 from "../assets/clients/dantech.png"
-import team10 from "../assets/clients/guidehouse.png"
-import team11 from "../assets/clients/ge.png"
-import team12 from "../assets/clients/elena.png"
-import team13 from "../assets/clients/tm.png"
-import team14 from "../assets/clients/iopex.png"
-import team15 from "../assets/clients/budha.jpg"
+
+import software from "../assets/new_agni_images/software.jpeg";
+import pic1 from "../assets/software/pic1.jpg"
+import pic2 from "../assets/software/pic2.png";
+import pic3 from "../assets/software/pic3.jpg";
+import pic4 from "../assets/software/pic4.png";
+import pic5 from "../assets/software/pic5.png";
+import pic6 from "../assets/software/pic6.png";
+import pic7 from "../assets/software/pic7.png";
+import pic8 from "../assets/software/pic8.png";
+import pic9 from "../assets/software/pic9.png";
+import pic10 from "../assets/software/pic10.png";
+import pic11 from "../assets/software/pic11.png";
+import pic12 from "../assets/software/pic12.png";
+import pic13 from "../assets/software/pic13.png";
+
 
 const OurSoftwares = () => {
 
+
   const CardData = [
-      {
-        id: 1,
-        title: "TVS Electronics - Office",
-        description:
-          "We have completed about 7500 sq. ft. in the Bengaluru site.",
-        image: team,
-      },
-      {
-        id: 2,
-        title: "KPMG - Innovation Centre",
-        description:
-          "We have completed about 3765 sq. ft. in the Bengaluru site.",
-        image: team1,
-      },
-      {
-        id: 3,
-        title: "Cloud Kinetics - Office",
-        description: "We have completed about 6500 sq. ft. in the Chennai site.",
-        image: team2,
-      },
-      {
-        id: 4,
-        title: "Hutchinson - Manufacturing Plant",
-        description:
-          "We have completed about 30000 sq. ft. in the Oragadam site.",
-        image: team3,
-      },
-      {
-        id: 5,
-        title: "VGP - Amusement Park",
-        description:
-          "We have completed about 150000 sq. ft. in the Chennai site.",
-        image: team4,
-      },
-      {
-        id: 6,
-        title: "Valeo - Commercial Building",
-        description:
-          "We have completed about 100000 sq. ft. in the Chennai site.",
-        image: team5,
-      },
-      {
-        id: 7,
-        title: "MindStudio - Commercial Building",
-        description: "We have completed about 5000 sq. ft. in the Chennai site.",
-        image: team6,
-      },
-      {
-        id: 8,
-        title: "Arymond - Industrial",
-        description: "We have completed about 30000 sq. ft. in the Chennai site.",
-        image: team7,
-      },
-      {
-        id: 9,
-        title: "TFE - Commercial Building",
-        description: "We have completed about 7500 sq. ft. in the Chennai site.",
-        image: team8,
-      },
-      {
-        id: 10,
-        title: "Dantech - Pharma Facility",
-        description: "We have completed about 12000 sq. ft. in the Chennai site.",
-        image: team9,
-      },
-      {
-        id: 11,
-        title: "Guide House - Commercial Building",
-        description: "We have completed about 57000 sq. ft. in the Chennai site.",
-        image: team10,
-      },
-      {
-        id: 12,
-        title: "GE - Cafeteria",
-        description: "We have completed about 500 sq. ft. in the Chennai site.",
-        image: team11,
-      },
-      {
-        id: 13,
-        title: "Elena - Office",
-        description: "We have completed about 1063 sq. ft. in the Chennai site.",
-        image: team12,
-      },
-      {
-        id: 14,
-        title: "TM Seating - Office",
-        description: "We have completed about 5000 sq. ft. in the Chennai site.",
-        image: team13,
-      },
-      {
-        id: 15,
-        title: "iopex - Office",
-        description: "We have completed about 10800 sq. ft. in the Indore site.",
-        image: team14,
-      },
-      {
-        id: 16,
-        title: "Buddhi Clinic - Health Care",
-        description: "We have completed about 2039.4 sq. ft. in the Indore site.",
-        image: team15,
-      }
-      // ,
-      // {
-      //   id: 17,
-      //   title: "Metro Bazaar - Hotel",
-      //   description: "We have completed about 42000 sq. ft. in the Hosur site.",
-      //   image: team16,
-      // },
-    ];
+    {
+      id: 1,
+      title: "Autodesk Revit",
+      description:
+        "A Building Information Modeling (BIM) software that allows users to design a building and its components in 3D, annotate the model with 2D drafting elements, and access building information from the model.",
+      image: pic1,
+    },
+    {
+      id: 2,
+      title: "Enscape",
+      description:
+        "A real-time visualization and virtual reality plugin for Revit, SketchUp, and other BIM tools that enables users to create high-quality renderings and walkthroughs quickly.",
+      image: pic2,
+    },
+    {
+      id: 3,
+      title: "Autodesk BIM 360",
+      description:
+        "A cloud-based platform that connects project teams and data in real time, enhancing collaboration and project management in the construction process.",
+      image: pic3,
+    },
+    {
+      id: 4,
+      title: "Autodesk AutoCAD MEP",
+      description:
+        "A version of AutoCAD specifically designed for MEP engineers, providing tools and features for designing mechanical, electrical, and plumbing systems in building projects.",
+      image: pic4,
+    },
+    {
+      id: 5,
+      title: "Lumion",
+      description:
+        "A visualization software that enables architects and designers to create beautiful images, videos, and 360-degree panoramas from 3D models with ease.",
+      image: pic5,
+    },
+    {
+      id: 6,
+      title: "Revizto",
+      description:
+        "A real-time issue tracking software that helps project teams visualize, communicate, and manage issues within a single, collaborative environment.",
+      image: pic6,
+    },
+    {
+      id: 7,
+      title: "Bluebeam",
+      description:
+        "A PDF solution that enables users to create, edit, markup, and collaborate on PDF documents, widely used in construction documentation.",
+      image: pic7,
+    },
+    {
+      id: 8,
+      title: "SketchUp",
+      description:
+        "A 3D modeling software that's easy to use, allowing designers to create detailed 3D models and conceptual designs quickly.",
+      image: pic8,
+    },
+    {
+      id: 9,
+      title: "Adobe Photoshop",
+      description:
+        "A graphic design and photo editing software used for creating and manipulating images, essential for enhancing visual presentations of projects.",
+      image: pic9,
+    },
+    {
+      id: 10,
+      title: "Autodesk Navisworks",
+      description:
+        "A project review software that integrates 3D models from various software to enable clash detection and project visualization.",
+      image: pic10,
+    },
+    {
+      id: 11,
+      title: "Dynamo",
+      description:
+        "A visual programming tool that works with Revit to automate repetitive tasks and create custom workflows for MEP design.",
+      image: pic11,
+    },
+    {
+      id: 12,
+      title: "Adobe Premiere Pro",
+      description:
+        "A professional video editing software used to create high-quality videos, useful for presenting projects and case studies.",
+      image: pic12,
+    },
+    {
+      id: 13,
+      title: "COBie",
+      description:
+        "Construction Operations Building Information Exchange is a standard for managing building data and information during the lifecycle of a building, facilitating better facility management.",
+      image: pic13,
+    },
+  ];
+  
 
   return (
     <>
@@ -189,7 +173,7 @@ const OurSoftwares = () => {
                   </div>
                 </div>
               </div>
-              <div className="-mx-4 flex flex-wrap">
+              <div className="-mx-4 flex flex-wrap justify-center">
                 {CardData.map((data) => (
                   <ServiceCard
                     title={data.title}
@@ -232,7 +216,7 @@ const OurSoftwares = () => {
                     repetitive tasks to boost productivity and reduce project
                     timelines. Real-Time Collaboration: Enabling seamless
                     communication and collaboration across teams to ensure
-                    project alignment and success. 
+                    project alignment and success.
                   </p>
                 </div>
               </div>
@@ -240,7 +224,7 @@ const OurSoftwares = () => {
             <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
               <img
                 alt=""
-                src={client}
+                src={software}
                 className="w-[48rem] max-w-none rounded-xl bg-white/20 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] h-[30rem] object-contain"
               />
             </div>

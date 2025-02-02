@@ -1,134 +1,58 @@
 import React from "react";
-import client from "../assets/clients/client_xs.png";
-import team from "../assets/clients/tvs.png"
-import team1 from "../assets/clients/kpmg.png"
-import team2 from "../assets/clients/cloud.png"
-import team3 from "../assets/clients/hutch.png"
-import team4 from "../assets/clients/vgp.png"
-import team5 from "../assets/clients/valeo.png"
-import team6 from "../assets/clients/mind.jpg"
-import team7 from "../assets/clients/raymond.png"
-import team8 from "../assets/clients/tfe.png"
-import team9 from "../assets/clients/dantech.png"
-import team10 from "../assets/clients/guidehouse.png"
-import team11 from "../assets/clients/ge.png"
-import team12 from "../assets/clients/elena.png"
-import team13 from "../assets/clients/tm.png"
-import team14 from "../assets/clients/iopex.png"
-import team15 from "../assets/clients/budha.jpg"
+import project2 from "../assets/projects/project1.png";
 
 const OurProjects = () => {
   const CardData = [
-      {
-        id: 1,
-        title: "TVS Electronics - Office",
-        description:
-          "We have completed about 7500 sq. ft. in the Bengaluru site.",
-        image: team,
-      },
-      {
-        id: 2,
-        title: "KPMG - Innovation Centre",
-        description:
-          "We have completed about 3765 sq. ft. in the Bengaluru site.",
-        image: team1,
-      },
-      {
-        id: 3,
-        title: "Cloud Kinetics - Office",
-        description: "We have completed about 6500 sq. ft. in the Chennai site.",
-        image: team2,
-      },
-      {
-        id: 4,
-        title: "Hutchinson - Manufacturing Plant",
-        description:
-          "We have completed about 30000 sq. ft. in the Oragadam site.",
-        image: team3,
-      },
-      {
-        id: 5,
-        title: "VGP - Amusement Park",
-        description:
-          "We have completed about 150000 sq. ft. in the Chennai site.",
-        image: team4,
-      },
-      {
-        id: 6,
-        title: "Valeo - Commercial Building",
-        description:
-          "We have completed about 100000 sq. ft. in the Chennai site.",
-        image: team5,
-      },
-      {
-        id: 7,
-        title: "MindStudio - Commercial Building",
-        description: "We have completed about 5000 sq. ft. in the Chennai site.",
-        image: team6,
-      },
-      {
-        id: 8,
-        title: "Arymond - Industrial",
-        description: "We have completed about 30000 sq. ft. in the Chennai site.",
-        image: team7,
-      },
-      {
-        id: 9,
-        title: "TFE - Commercial Building",
-        description: "We have completed about 7500 sq. ft. in the Chennai site.",
-        image: team8,
-      },
-      {
-        id: 10,
-        title: "Dantech - Pharma Facility",
-        description: "We have completed about 12000 sq. ft. in the Chennai site.",
-        image: team9,
-      },
-      {
-        id: 11,
-        title: "Guide House - Commercial Building",
-        description: "We have completed about 57000 sq. ft. in the Chennai site.",
-        image: team10,
-      },
-      {
-        id: 12,
-        title: "GE - Cafeteria",
-        description: "We have completed about 500 sq. ft. in the Chennai site.",
-        image: team11,
-      },
-      {
-        id: 13,
-        title: "Elena - Office",
-        description: "We have completed about 1063 sq. ft. in the Chennai site.",
-        image: team12,
-      },
-      {
-        id: 14,
-        title: "TM Seating - Office",
-        description: "We have completed about 5000 sq. ft. in the Chennai site.",
-        image: team13,
-      },
-      {
-        id: 15,
-        title: "iopex - Office",
-        description: "We have completed about 10800 sq. ft. in the Indore site.",
-        image: team14,
-      },
-      {
-        id: 16,
-        title: "Buddhi Clinic - Health Care",
-        description: "We have completed about 2039.4 sq. ft. in the Indore site.",
-        image: team15,
-      }
-      // ,
-      // {
-      //   id: 17,
-      //   title: "Metro Bazaar - Hotel",
-      //   description: "We have completed about 42000 sq. ft. in the Hosur site.",
-      //   image: team16,
-      // },
-    ];
-  
+    {
+      title: "Vincent Hospital - Pump Room BIM Modelling",
+      description: "Software Used: Revit 2022, Navis; Location: Ireland",
+      image: "team",
+    },
+    {
+      title: "Darwin (Warehouse) - MEP & Fire BIM Modelling",
+      description: "Software Used: Revit2023, Navisworks, Recap; Location: UK",
+      image: "team",
+    },
+    {
+      title: "U.S Army Engineer - Utility Services 2D Drafting",
+      description: "Software Used: Microstation; Location: Portland",
+      image: "team",
+    },
+    {
+      title: "Tesco Holbeach - MEP BIM Modelling",
+      description: "Software Used: Revit2023, Navisworks, Recap; Location: UK",
+      image: "team",
+    },
+    {
+      title: "Tesco Collins - MEP BIM Modelling",
+      description: "Software Used: Revit2023, Navisworks, Recap; Location: UK",
+      image: "team",
+    },
+    {
+      title: "Sutton Coldfield - MEP BIM Modelling",
+      description:
+        "Software Used: Revit2023, Navisworks, AutoCAD; Location: UK",
+      image: "team",
+    },
+    {
+      title: "SSL Bromsgrove - MEP BIM Modelling",
+      description:
+        "Software Used: Revit2023, Navisworks, AutoCAD; Location: UK",
+      image: "team",
+    },
+    {
+      title: "SSL Rugby - MEP BIM Modelling",
+      description:
+        "Software Used: Revit2023, Navisworks, AutoCAD; Location: UK",
+      image: "team",
+    },
+    {
+      title: "C1038 ANAS - Bridge Electrical Cable Modelling",
+      description: "Software Used: Revit2023; Location: Italy",
+      image: "team",
+    },
+  ];
+
   return (
     <>
       <div>
@@ -165,8 +89,8 @@ const OurProjects = () => {
             </svg>
           </div>
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl text-center my-2 mb-10">
-                   Our Projects
-                  </p>
+            Our Projects
+          </p>
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
             <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
               <div className="lg:pr-4">
@@ -195,7 +119,7 @@ const OurProjects = () => {
             <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
               <img
                 alt=""
-                src={client}
+                src={project2}
                 className="w-[48rem] max-w-none rounded-xl bg-white/20 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] h-[30rem] object-contain"
               />
             </div>
@@ -206,15 +130,17 @@ const OurProjects = () => {
                 <div className="w-full px-4">
                   <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
                     <span className="mb-2 block text-lg font-semibold text-primary">
-                      Our Clients
+                      Our Projects
                     </span>
                     <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]">
                       What We Do Matters
                     </h2>
-                    <p className="text-base text-body-color dark:text-dark-6">
-                      We strive to redefine industry standards through
-                      innovation, collaboration, and a deep understanding of our
-                      clients' goals
+                    <p className="text-base text-body-color text-green-600 font-bold dark:text-dark-6">
+                      * Since we are committed to client confidentiality, we do
+                      not share images of client projects for security purposes.
+                      Thank you for your understanding. For more information,
+                      please contact us or fill out the form in the 'Get in
+                      Touch' section. *
                     </p>
                   </div>
                 </div>
@@ -224,7 +150,7 @@ const OurProjects = () => {
                   <ServiceCard
                     title={data.title}
                     details={data.description}
-                    image ={data.image}
+                    image={data.image}
                     icon={
                       <svg
                         width="36"
@@ -252,12 +178,14 @@ const OurProjects = () => {
 
 export default OurProjects;
 
-const ServiceCard = ({ icon, title, details,image }) => {
+const ServiceCard = ({ icon, title, details }) => {
   return (
     <>
       <div className="w-full px-4 md:w-1/2 lg:w-1/3">
         <div className="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
-            <img src={image} alt="photo" className=" mb-8 flex h-[70px]  items-center justify-center  w-full object-contain"/>
+          <p className=" mb-8 flex h-[70px] font-extrabold text-4xl text-blue-500 items-center justify-center  w-full object-contain">
+            {title?.split(" ")[0]}
+          </p>
 
           <h4 className="mb-[14px] text-2xl font-semibold text-dark text-center dark:text-white">
             {title}
@@ -268,4 +196,3 @@ const ServiceCard = ({ icon, title, details,image }) => {
     </>
   );
 };
-

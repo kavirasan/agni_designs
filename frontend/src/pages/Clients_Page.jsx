@@ -222,7 +222,7 @@ const Clients_Page = () => {
                   </div>
                 </div>
               </div>
-              <div className="-mx-4 flex flex-wrap">
+              <div className="-mx-4 flex flex-wrap justify-center">
                 {CardData.map((data) => (
                   <ServiceCard
                     title={data.title}

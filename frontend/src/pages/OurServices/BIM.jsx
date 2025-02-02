@@ -1,12 +1,12 @@
 import React from 'react'
 import ServiceTemplate from "../page_template/ServiceTemplate"
 import img from "../../assets/projects/project1.png"
-import pic1 from "../../assets/services/mep/pic1.jpg"
-import pic2 from "../../assets/services/mep/pic2.jpg"
-import pic3 from "../../assets/services/mep/pic3.jpg"
-import pic4 from "../../assets/services/mep/pic4.jpg"
-import pic5 from "../../assets/services/mep/pic5.jpg"
-import pic6 from "../../assets/services/mep/pic6.jpg"
+import pic1 from "../../assets/services/bim/pic1.png"
+import pic2 from "../../assets/services/bim/pic2.png"
+import pic3 from "../../assets/services/bim/pic3.png"
+import pic4 from "../../assets/services/bim/pic4.png"
+import pic5 from "../../assets/services/bim/pic5.png"
+import pic6 from "../../assets/services/bim/pic6.png"
 import ScrollToTop from '../../utils/ScrollToTop'
 const BIM = () => {
     const BIM = [
@@ -104,15 +104,15 @@ const BIM = () => {
         imgCont2Title: "Seamless Collaboration & Integration",
         imgCont2Desc:
           "Our BIM experts collaborate with architects and engineers to integrate MEP systems into a unified model, enhancing project transparency and coordination.",
-        imgCont2: "/images/mep-bim-collaboration.jpg", // Replace with your image path
+        imgCont2: "/images/mep-bim-collaboration.png", // Replace with your image path
         imgCont3Title: "Energy-Efficient & Sustainable Designs",
         imgCont3Desc:
           "We utilize BIM-driven simulations to optimize energy consumption, improve sustainability, and ensure compliance with industry standards.",
-        imgCont3: "/images/mep-bim-sustainability.jpg", // Replace with your image path
+        imgCont3: "/images/mep-bim-sustainability.png", // Replace with your image path
         imgCont4Title: "Client-Centric Digital Solutions",
         imgCont4Desc:
           "Our customized BIM services empower clients with accurate visualizations, real-time updates, and enhanced decision-making throughout the project lifecycle.",
-        imgCont4: "/images/mep-bim-client-solutions.jpg", // Replace with your image path
+        imgCont4: "/images/mep-bim-client-solutions.png", // Replace with your image path
       };
   return (
     <div>

@@ -1,12 +1,12 @@
 import React from "react";
 import ServiceTemplate from "../page_template/ServiceTemplate";
 import img from "../../assets/services/mech_mep.jpg"
-import pic1 from "../../assets/services/mep/pic1.jpg"
-import pic2 from "../../assets/services/mep/pic2.jpg"
-import pic3 from "../../assets/services/mep/pic3.jpg"
-import pic4 from "../../assets/services/mep/pic4.jpg"
-import pic5 from "../../assets/services/mep/pic5.jpg"
-import pic6 from "../../assets/services/mep/pic6.jpg"
+import pic1 from "../../assets/services/mep/pic1.png" 
+import pic2 from "../../assets/services/mep/pic2.png"
+import pic3 from "../../assets/services/mep/pic3.png"
+import pic5 from "../../assets/services/mep/pic4.png"
+import pic4 from "../../assets/services/mep/pic5.png"
+import pic6 from "../../assets/services/bim/pic7.png"
 const Mep = () => {
   const services = [
     {
@@ -107,15 +107,15 @@ const Mep = () => {
     imgCont2Title: "Expert Team and Tools",
     imgCont2Desc:
       "Agni's team of experienced engineers utilizes advanced tools and methodologies to ensure precision and excellence in every project.",
-    imgCont2: "/images/mep-team.jpg", // Replace with your image path
+    imgCont2: "/images/mep-team.png", // Replace with your image path
     imgCont3Title: "Sustainable Designs",
     imgCont3Desc:
       "We prioritize environmentally friendly and energy-efficient solutions, ensuring compliance with global standards and promoting sustainability.",
-    imgCont3: "/images/mep-sustainability.jpg", // Replace with your image path
+    imgCont3: "/images/mep-sustainability.png", // Replace with your image path
     imgCont4Title: "Client-Centric Approach",
     imgCont4Desc:
       "Our client-focused approach enables us to provide tailor-made solutions, ensuring the successful execution of every project, big or small.",
-    imgCont4: "/images/mep-clients.jpg", // Replace with your image path
+    imgCont4: "/images/mep-clients.png", // Replace with your image path
   };
   return (
     <div>

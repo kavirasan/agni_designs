@@ -1,12 +1,12 @@
 import React from 'react'
 import ServiceTemplate from "../page_template/ServiceTemplate"
-import img from "../../assets/services/fire.jpg"
-import pic1 from "../../assets/services/mep/pic1.jpg"
-import pic2 from "../../assets/services/mep/pic2.jpg"
-import pic3 from "../../assets/services/mep/pic3.jpg"
-import pic4 from "../../assets/services/mep/pic4.jpg"
-import pic5 from "../../assets/services/mep/pic5.jpg"
-import pic6 from "../../assets/services/mep/pic6.jpg"
+import img from "../../assets/services/sus.jpg"
+import pic1 from "../../assets/services/mep.jpg"
+import pic2 from "../../assets/services/mech_mep.jpg"
+import pic3 from "../../assets/services/electrical.jpg"
+import pic4 from "../../assets/services/mep/pic6.png"
+import pic5 from "../../assets/services/fire.jpg"
+import pic6 from "../../assets/services/bim/pic7.png"
 const Validating_Value_Engineering = () => {
       const Validating_Value_Engineering = [
         {
@@ -103,15 +103,15 @@ const Validating_Value_Engineering = () => {
         imgCont2Title: "Expert Analysis & Engineering",
         imgCont2Desc:
           "Our specialists use advanced analytical tools and methodologies to validate designs, identify inefficiencies, and implement high-performance solutions.",
-        imgCont2: "/images/mep-validation-team.jpg", // Replace with your image path
+        imgCont2: "/images/mep-validation-team.png", // Replace with your image path
         imgCont3Title: "Sustainable & Cost-Efficient Solutions",
         imgCont3Desc:
           "Through rigorous validation, we enhance energy efficiency, reduce operational costs, and ensure adherence to global sustainability standards.",
-        imgCont3: "/images/mep-sustainability-validation.jpg", // Replace with your image path
+        imgCont3: "/images/mep-sustainability-validation.png", // Replace with your image path
         imgCont4Title: "Client-Driven Optimization",
         imgCont4Desc:
           "We collaborate closely with clients to provide tailored solutions that improve performance while maintaining project budgets and timelines.",
-        imgCont4: "/images/mep-client-solutions.jpg", // Replace with your image path
+        imgCont4: "/images/mep-client-solutions.png", // Replace with your image path
       };
   return (
     <div>
