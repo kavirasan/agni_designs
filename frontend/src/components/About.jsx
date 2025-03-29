@@ -59,7 +59,7 @@ const About = () => {
           containerClass="mt-5 !text-black/80 text-center"
         />
         <div className="about-subtext">
-          <p>
+          <p className="hidden md:flex">
             AGNI was ignited in the recent year to Derive and Deliver paramount
             engineering standards in MEP design. As a team having collective
             experience of more than two decades in both design and
@@ -73,7 +73,7 @@ const About = () => {
           <img
             src={img}
             alt="background"
-            className="absolute left-0 top-0  size-full object-cover "
+            className="absolute left-0 top-0 size-full object-cover "
           />
         </div>
       </div>

@@ -168,11 +168,11 @@ const Hero = () => {
               Agni <b>Design</b> <br /> Consultants
               {/* <TextAnimation name={"Agni Design Consultant"}/> */}
             </h1>
-            <p className="mb-5 max-w-full Poppins font-semibold text-white/90 mt-5">
+            <p className="mb-5 max-w-full Poppins font-bold text-xl text-black mt-5">
               Innovating MEP Designs <br /> with BIM and Revit Expertise
             </p>
           </div>
-          {/* <div className="flex justify-center z-60" onClick={() => console.log("clicked")}>
+          <div className="flex justify-center z-60" onClick={() => console.log("clicked")}>
 
           <Button
               route="/about"
@@ -181,7 +181,7 @@ const Hero = () => {
               leftIcon={<TiLocationArrow />}
               containerClass=" flex-center gap-2  "
               />  
-              </div> */}
+              </div>
         </div>
       </div>
       <h1 className="special-font hero-heading absolute bottom-5 right-5  text-orange-500">

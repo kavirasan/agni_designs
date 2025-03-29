@@ -13,7 +13,6 @@ const CardList = ({ CardTitle, CardData }) => {
             CardHead={data.title}
             CardDescription={data.description}
             CardImage={data.image}
-
           />
         ))}
       </div>

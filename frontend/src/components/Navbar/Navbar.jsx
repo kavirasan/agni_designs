@@ -114,7 +114,7 @@ const Navbar = () => {
                     {showDropdownValues == true && (
                       <div
                         id="dropdownHover"
-                        className="hidden md:flex absolute items-center justify-center -ml-2 mt-8  bg-white/80 divide-y divide-gray-100 rounded-sm shadow  dark:bg-gray-700"
+                        className="hidden md:flex absolute items-center justify-center -ml-2 mt-8  bg-white/80 divide-y divide-gray-100 rounded-lg shadow  dark:bg-gray-700"
                         onMouseEnter={() => setShowDropdownValues(true)}
                         onMouseLeave={() => setShowDropdownValues(false)}
                       >
@@ -198,7 +198,7 @@ const Navbar = () => {
                     {showAboutDropdownValues == true && (
                       <div
                         id="dropdownHover"
-                        className="hidden md:flex absolute items-center justify-center -ml-2 mt-8  bg-white/80  divide-y divide-gray-100 rounded-sm shadow  dark:bg-gray-700"
+                        className="hidden md:flex absolute items-center justify-center -ml-2 mt-8  bg-white/80  divide-y divide-gray-100 rounded-lg shadow  dark:bg-gray-700"
                         onMouseEnter={() => setshowAboutDropdownValues(true)}
                         onMouseLeave={() => setshowAboutDropdownValues(false)}
                       >

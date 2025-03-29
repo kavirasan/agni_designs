@@ -25,117 +25,117 @@ const AboutPage = () => {
         title: "TVS Electronics - Office",
         description:
           "We have completed about 7500 sq. ft. in the Bengaluru site.",
-        image: team,
+        // image: team,
       },
       {
         id: 2,
         title: "KPMG - Innovation Centre",
         description:
           "We have completed about 3765 sq. ft. in the Bengaluru site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 3,
         title: "Cloud Kinetics - Office",
         description:
           "We have completed about 6500 sq. ft. in the Chennai site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 4,
         title: "Hutchinson - Manufacturing Plant",
         description:
           "We have completed about 30000 sq. ft. in the Oragadam site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 5,
         title: "VGP - Amusement Park",
         description:
           "We have completed about 150000 sq. ft. in the Chennai site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 6,
         title: "Valeo - Commercial Building",
         description:
           "We have completed about 100000 sq. ft. in the Chennai site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 7,
         title: "MindStudio - Commercial Building",
         description:
           "We have completed about 5000 sq. ft. in the Chennai site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 8,
         title: "Arymond - Industrial",
         description:
           "We have completed about 30000 sq. ft. in the Chennai site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 9,
         title: "TFE - Commercial Building",
         description:
           "We have completed about 7500 sq. ft. in the Chennai site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 10,
         title: "Dantech - Pharma Facility",
         description:
           "We have completed about 12000 sq. ft. in the Chennai site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 11,
         title: "Guide House - Commercial Building",
         description:
           "We have completed about 57000 sq. ft. in the Chennai site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 12,
         title: "GE - Cafeteria",
         description: "We have completed about 500 sq. ft. in the Chennai site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 13,
         title: "Elena - Office",
         description:
           "We have completed about 1063 sq. ft. in the Chennai site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 14,
         title: "TM Seating - Office",
         description:
           "We have completed about 5000 sq. ft. in the Chennai site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 15,
         title: "iopex - Office",
         description:
           "We have completed about 10800 sq. ft. in the Indore site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 16,
         title: "Buddhi Clinic - Health Care",
         description:
           "We have completed about 2039.4 sq. ft. in the Indore site.",
-        image: "team",
+       // image: "team",
       },
       {
         id: 17,
         title: "Metro Bazaar - Hotel",
         description: "We have completed about 42000 sq. ft. in the Hosur site.",
-        image: "team",
+       // image: "team",
       },
     ],
     CardTitle1:"Our Projects",
@@ -143,53 +143,53 @@ const AboutPage = () => {
       {
         title: "Vincent Hospital - Pump Room BIM Modelling",
         description: "Software Used: Revit 2022, Navis; Location: Ireland",
-        image: "team",
+       // image: "team",
       },
       {
         title: "Darwin (Warehouse) - MEP & Fire BIM Modelling",
         description:
           "Software Used: Revit2023, Navisworks, Recap; Location: UK",
-        image: "team",
+       // image: "team",
       },
       {
         title: "U.S Army Engineer - Utility Services 2D Drafting",
         description: "Software Used: Microstation; Location: Portland",
-        image: "team",
+       // image: "team",
       },
       {
         title: "Tesco Holbeach - MEP BIM Modelling",
         description:
           "Software Used: Revit2023, Navisworks, Recap; Location: UK",
-        image: "team",
+       // image: "team",
       },
       {
         title: "Tesco Collins - MEP BIM Modelling",
         description:
           "Software Used: Revit2023, Navisworks, Recap; Location: UK",
-        image: "team",
+       // image: "team",
       },
       {
         title: "Sutton Coldfield - MEP BIM Modelling",
         description:
           "Software Used: Revit2023, Navisworks, AutoCAD; Location: UK",
-        image: "team",
+       // image: "team",
       },
       {
         title: "SSL Bromsgrove - MEP BIM Modelling",
         description:
           "Software Used: Revit2023, Navisworks, AutoCAD; Location: UK",
-        image: "team",
+       // image: "team",
       },
       {
         title: "SSL Rugby - MEP BIM Modelling",
         description:
           "Software Used: Revit2023, Navisworks, AutoCAD; Location: UK",
-        image: "team",
+       // image: "team",
       },
       {
         title: "C1038 ANAS - Bridge Electrical Cable Modelling",
         description: "Software Used: Revit2023; Location: Italy",
-        image: "team",
+       // image: "team",
       },
     ],
     CsTitle: "Our Mission & Vision",
@@ -218,7 +218,7 @@ const AboutPage = () => {
     
     <div>
       <TemplatePage
-      CbImg ={data.CbImg}
+       CbImg ={data.CbImg}
         Cbtitle={data.Cbtitle}
         CbDescription={data.CbDescription}
         descriptionTitle={data.descriptionTitle}
