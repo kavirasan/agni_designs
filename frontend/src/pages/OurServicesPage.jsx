@@ -6,7 +6,6 @@ import { useLocation } from "react-router";
 
 const OurServicesPage = () => {
   const location = useLocation();
-  console.log(location.search.split("?")[2]);
 
   
 
@@ -31,7 +30,6 @@ const OurServicesPage = () => {
 
   const [CurrentPage, setCurrentPage] = useState(location.search.split("?"));
 
-  console.log(CurrentPage[1], CurrentPage[2]);
 
   return (
     <div>

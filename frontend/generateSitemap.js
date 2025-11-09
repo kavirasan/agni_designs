@@ -36,5 +36,4 @@ streamToPromise(sitemapStream).then(data => {
   }
 
   fs.writeFileSync(path.join(buildDir, 'sitemap.xml'), data);
-  console.log('Sitemap generated!');
 });

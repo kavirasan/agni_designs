@@ -16,7 +16,7 @@ const HomePage = () => {
   //   url: "https://agnidesign.netlify.app/",
   //   description:
   //     "Agni Design Consultants specialize in MEP technical due diligence and professional engineering solutions.",
-  //   telephone: "+91 9876543210",
+  //   telephone: "+91 044-468647710",
   //   address: {
   //     "@type": "PostalAddress",
   //     streetAddress: "123 Business Park",
@@ -27,7 +27,7 @@ const HomePage = () => {
   //   },
   //   contactPoint: {
   //     "@type": "ContactPoint",
-  //     telephone: "+91 9876543210",
+  //     telephone: "+91 044-468647710",
   //     contactType: "customer service",
   //   },
   //   services: [

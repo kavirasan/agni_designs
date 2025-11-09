@@ -3,7 +3,6 @@ import { useLocation } from "react-router";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
-  console.log(pathname,window.scroll)
   useEffect(() => {
     const timer = setTimeout(() => {
       window.scrollTo(0, 0);

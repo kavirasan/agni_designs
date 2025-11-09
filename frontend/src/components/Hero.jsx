@@ -44,7 +44,6 @@ const Hero = () => {
   const handleMiniVdClick = () => {
     setHasClicked(true);
     setCurrentIndex(upcomingVideoIndex);
-    console.log(upcomingVideoIndex);
   };
 
   useGSAP(
@@ -139,7 +138,7 @@ const Hero = () => {
         className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg "
       >
         <div>
-          <div className="mask-clip-path  absolute-center absolute z-50 size-64 cursor-pointer overflow-hidden rounded-lg">
+          <div className="mask-clip-path  absolute-center absolute z-50 size-64 cursor-pointer overflow-hidden rounded-lg pointer-events-none">
             <div
               onClick={handleMiniVdClick}
               className="origin-center scale-50 opacity-0 transition-all duration-500 ease-in hover:scale-100 hover:opacity-100"
@@ -172,14 +171,14 @@ const Hero = () => {
               Innovating MEP Designs <br /> with BIM and Revit Expertise
             </p>
           </div>
-          <div className="flex justify-center z-60" onClick={() => console.log("clicked")}>
+          <div className="flex justify-center  z-[9999] relative" >
 
           <Button
-              route="/about"
+              route="/client"
               id="watch-trailer"
               title="Explore Now"
               leftIcon={<TiLocationArrow />}
-              containerClass=" flex-center gap-2  "
+              containerClass=" flex-center gap-2"
               />  
               </div>
         </div>

@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import AnimatedTitle from "./TextAnimation/AnimatedTitle";
-import office from "../assets/new_agni_images/office1.jpg";
+import office from "../assets/new_agni_images/loading.gif";
 import gsap from "gsap";
 import Button from "./Button";
 import AgniDesignSEO from "../SEO/AgniDesignSEO";
@@ -84,7 +84,7 @@ openGraph: {
               onMouseMove={handleMouseMove}
               src={office}
               alt="etrance"
-              className=" w-64 h-64 md:w-1/2 md:h-96 object-cover object-center rounded-3xl  flex"
+              className=" w-64 h-64 md:w-1/2 md:h-96 object-contain object-center rounded-3xl  flex"
             />
             <p className="max-w-xl text-center font-circular-web text-black-50 text-sm md:text-lg md:text-center m-3  md:mt-5">
               Meet our team of dedicated professionals, each bringing expertise

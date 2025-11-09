@@ -85,7 +85,9 @@ const ContactUsPage = () => {
               className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] h-[30rem] object-cover"
             /> */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23301.99234560162!2d80.19634769031333!3d12.968429638553479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525db5c1e8c4a7%3A0x59df5e4a3b671da5!2sSai%20Aircon%20solution!5e0!3m2!1sen!2sin!4v1738137407267!5m2!1sen!2sin"
+              // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23301.99234560162!2d80.19634769031333!3d12.968429638553479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525db5c1e8c4a7%3A0x59df5e4a3b671da5!2sSai%20Aircon%20solution!5e0!3m2!1sen!2sin!4v1738137407267!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.1264646312895!2d80.249172!3d12.9763983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525da2de3e39bf%3A0x66bd4064818da56!2sShoba%20Castle!5e0!3m2!1sen!2sin!4v1731140000000!5m2!1sen!2sin"
+
               width="900"
               height="500"
               style={{ border: 0 }}
@@ -114,7 +116,9 @@ const ContactUsPage = () => {
                       </strong>
                     </span>
                     <p>
-                      No 25B, Ramalingam Nagar, Kottivakkam, OMR Chennai 600041
+                     No.3, 2nd Floor, Rajiv Street,
+OMR, Kottivakkam,
+Chennai – 600 041, India
                     </p>
                   </li>
                   <li className="flex flex-col gap-x-3">
@@ -123,7 +127,7 @@ const ContactUsPage = () => {
                         Phone
                       </strong>
                     </span>
-                    <p> +91 98848 41412 </p>
+                    <p> 044-46864771 </p>
                   </li>
                   <li className="flex flex-col gap-x-3">
                     <span>
@@ -131,7 +135,7 @@ const ContactUsPage = () => {
                         Email
                       </strong>
                     </span>
-                    <p>info@agnimep.com</p>
+                    <p>Info@agnimep.com</p>
                   </li>
                   <li className="flex flex-col gap-x-3">
                     <span>
