@@ -45,7 +45,7 @@ const ContactPage = () => {
       const subject = encodeURIComponent("Inquiry About Your Services");
       const body = encodeURIComponent(
         `Hi,\n\n` +
-          `My name is ${formData.name}, and I am interested in exploring the services offered by Agni Design Consultant.\n\n` +
+          `My name is ${formData.name}, and I am interested in exploring the services offered by Agni Design Consultants.\n\n` +
           `I am based in ${formData.city} and work at ${formData.company}.\n\n` +
           `You can reach me at ${formData.phone} or ${formData.email}.\n\n` +
           `I would appreciate it if you could provide me with more information regarding your design services, project methodologies, and any notable projects you have undertaken. Understanding your expertise will help us evaluate potential collaboration opportunities.\n\n` +

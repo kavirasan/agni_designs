@@ -47,11 +47,11 @@ const HomePage = () => {
   return (
     <div>
       <AgniDesignSEO
-        title="Agni Design Consultants - MEP Technical Due Diligence & Engineering Solutions"
-        description="Agni Design Consultants specialize in MEP technical due diligence, sustainable engineering solutions, BIM modeling, and compliance assessments. Trusted by leading industries for precise, efficient, and innovative MEP consulting."
-        keywords="MEP due diligence, MEP consultants, engineering solutions, Agni Design, BIM modeling, MEP audits, sustainable engineering, HVAC design, electrical planning, fire safety compliance"
-        canonical="https://agnidesign.netlify.app/"
-      />
+  title="Agni Design Consultants - MEP Technical Due Diligence & Engineering Solutions"
+  description="Agni Design Consultants specialize in MEP technical due diligence, sustainable engineering solutions, BIM modeling, and compliance assessments. Trusted by leading industries for precise, efficient, and innovative MEP consulting."
+  keywords="MEP due diligence, MEP consultants, engineering solutions, Agni Design, BIM modeling, MEP audits, sustainable engineering, HVAC design, electrical planning, fire safety compliance"
+  canonical="https://www.agnidesign.com/"
+/>
 
       {/* <SchemaMarkup data={schemaData} /> */}
 

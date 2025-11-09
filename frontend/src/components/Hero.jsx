@@ -166,7 +166,7 @@ const Hero = () => {
           <div className="mt-24 px-4 sm:px-10 flex items-center flex-col">
             <h1 className="hero-heading text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-yellow-350 to-yellow-300 ">
               Agni <b>Design</b> <br /> Consultants
-              {/* <TextAnimation name={"Agni Design Consultant"}/> */}
+              {/* <TextAnimation name={"Agni Design Consultants"}/> */}
             </h1>
             <p className="mb-5 max-w-full Poppins font-bold text-xl text-black mt-5">
               Innovating MEP Designs <br /> with BIM and Revit Expertise

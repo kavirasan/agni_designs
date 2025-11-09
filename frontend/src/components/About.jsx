@@ -29,16 +29,16 @@ const About = () => {
   });
 
   const seo = {
-    title: "About Us - Agni Design Consultant",
-    description: "Learn about Agni Design Consultant's expertise in MEP design and our commitment to delivering sustainable engineering solutions. Discover our team's experience and innovative approach.",
+    title: "About Us - Agni Design Consultants",
+    description: "Learn about Agni Design Consultants's expertise in MEP design and our commitment to delivering sustainable engineering solutions. Discover our team's experience and innovative approach.",
     keywords: "about us, company, team, expertise, MEP, design, engineering, consulting, sustainable solutions, innovation", // Add more keywords
-    canonical: "https://www.yourwebsite.com/about", // **REPLACE WITH YOUR ACTUAL URL**
+    canonical: "https://www.agnidesign.com/about", // Updated URL with your new domain
     openGraph: {
-        title: "About Us - Agni Design Consultant",
-        description: "Learn about Agni Design Consultant's expertise in MEP design and our commitment to delivering sustainable engineering solutions. Discover our team's experience and innovative approach.",
-        url: "https://www.yourwebsite.com/about", // **REPLACE WITH YOUR ACTUAL URL**
+        title: "About Us - Agni Design Consultants",
+        description: "Learn about Agni Design Consultants's expertise in MEP design and our commitment to delivering sustainable engineering solutions. Discover our team's experience and innovative approach.",
+        url: "https://www.agnidesign.com/about", // Updated URL with your new domain
         type: "website",
-        // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/about-og-image.jpg",
+        // Add an OG image if you have one: image: "https://www.agnidesign.com/images/about-og-image.jpg",
     },
 };
 

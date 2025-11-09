@@ -104,16 +104,16 @@ const Thrid = () => {
         imgCont4: "/images/third-party-reporting.png", // Replace with your image path
       };
       const seo = {
-        title: "Third-Party Testing Services - Agni Design Consultant",
-        description: "Agni Design Consultant provides independent third-party testing for MEP systems. We ensure compliance, reliability, and performance through unbiased evaluations and rigorous testing.",
+        title: "Third-Party Testing Services - Agni Design Consultants",
+        description: "Agni Design Consultants provides independent third-party testing for MEP systems. We ensure compliance, reliability, and performance through unbiased evaluations and rigorous testing.",
         keywords: "third party testing, MEP testing, independent testing, compliance testing, performance testing, safety testing, quality assurance, inspection, certification", // Add more keywords
-        canonical: "https://www.yourwebsite.com/third-party-testing", // **REPLACE WITH YOUR ACTUAL URL**
+        canonical: "https://www.agnidesign.com/third-party-testing", // **REPLACE WITH YOUR ACTUAL URL**
         openGraph: {
-            title: "Third-Party Testing Services - Agni Design Consultant",
-            description: "Agni Design Consultant provides independent third-party testing for MEP systems. We ensure compliance, reliability, and performance through unbiased evaluations and rigorous testing.",
-            url: "https://www.yourwebsite.com/third-party-testing", // **REPLACE WITH YOUR ACTUAL URL**
+            title: "Third-Party Testing Services - Agni Design Consultants",
+            description: "Agni Design Consultants provides independent third-party testing for MEP systems. We ensure compliance, reliability, and performance through unbiased evaluations and rigorous testing.",
+            url: "https://www.agnidesign.com/third-party-testing", // **REPLACE WITH YOUR ACTUAL URL**
             type: "website",
-            // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/third-party-og-image.jpg",
+            // Add an OG image if you have one: image: "https://www.agnidesign.com/images/third-party-og-image.jpg",
         },
     };
     

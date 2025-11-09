@@ -54,10 +54,10 @@ const OurProjects = () => {
     },
   ];
   const seo = {  // Define your SEO data
-    title: "Our Projects - Agni Design Consultant",
+    title: "Our Projects - Agni Design Consultants",
     description: "Explore our diverse portfolio of BIM modeling, MEP design, and 2D drafting projects. We specialize in delivering cutting-edge, sustainable design solutions for clients worldwide.",
     keywords: "BIM modeling, MEP design, 2D drafting, Revit, Navisworks, Microstation, sustainable design, architecture, engineering, construction, Ireland, UK, Italy, US",
-    canonical: "https://www.yourwebsite.com/projects", // Replace with your actual URL
+    canonical: "https://www.agnidesign.com/projects", // Replace with your actual URL
   };
 
   return (
@@ -110,7 +110,7 @@ const OurProjects = () => {
                     Our customers make us great
                   </h1>
                   <p className="mt-6 text-xl/8 text-gray-700">
-                    Here at Agni Design Consultant, we specialize in delivering
+                    Here at Agni Design Consultants, we specialize in delivering
                     cutting-edge, sustainable design solutions tailored to meet
                     the evolving needs of our clients. By combining advanced
                     technology, creative vision, and industry expertise, we

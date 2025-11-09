@@ -170,7 +170,7 @@ const OurSoftwares = () => {
                       Why Our Work Matters
                     </h2>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      At Agni Design Consultant, our software solutions are
+                      At Agni Design Consultants, our software solutions are
                       designed to revolutionize the way you approach MEP design
                       and project management. By leveraging advanced tools and
                       cutting-edge technology, we ensure seamless integration,

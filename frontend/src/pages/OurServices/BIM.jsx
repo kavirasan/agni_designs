@@ -14,16 +14,16 @@ import AgniDesignSEO from '../../SEO/AgniDesignSEO';
 const BIM = () => {
 
   const seo = {
-    title: "MEP BIM Services - Agni Design Consultant",
-    description: "Agni Design Consultant offers cutting-edge MEP BIM services, enhancing collaboration, accuracy, and efficiency in your projects. Explore our BIM solutions.",
+    title: "MEP BIM Services - Agni Design Consultants",
+    description: "Agni Design Consultants offers cutting-edge MEP BIM services, enhancing collaboration, accuracy, and efficiency in your projects. Explore our BIM solutions.",
     keywords: "MEP, BIM, building information modeling, construction, design, engineering, coordination, clash detection, energy analysis, facility management", // Add relevant keywords
-    canonical: "https://www.yourwebsite.com/bim", // **REPLACE WITH YOUR ACTUAL URL**
+    canonical: "https://www.agnidesign.com/bim", // **REPLACE WITH YOUR ACTUAL URL**
     openGraph: {
-        title: "MEP BIM Services - Agni Design Consultant",
-        description: "Agni Design Consultant offers cutting-edge MEP BIM services, enhancing collaboration, accuracy, and efficiency in your projects. Explore our BIM solutions.",
-        url: "https://www.yourwebsite.com/bim", // **REPLACE WITH YOUR ACTUAL URL**
+        title: "MEP BIM Services - Agni Design Consultants",
+        description: "Agni Design Consultants offers cutting-edge MEP BIM services, enhancing collaboration, accuracy, and efficiency in your projects. Explore our BIM solutions.",
+        url: "https://www.agnidesign.com/bim", // **REPLACE WITH YOUR ACTUAL URL**
         type: "website",
-        // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/bim-og-image.jpg",
+        // Add an OG image if you have one: image: "https://www.agnidesign.com/images/bim-og-image.jpg",
     },
 };
 

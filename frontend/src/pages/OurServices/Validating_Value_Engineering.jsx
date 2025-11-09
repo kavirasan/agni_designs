@@ -118,16 +118,16 @@ const Validating_Value_Engineering = () => {
       };
 
       const seo = {
-        title: "MEP Design Validation & Value Engineering - Agni Design Consultant",
-        description: "Agni Design Consultant provides MEP design validation and value engineering services. We optimize designs for performance, cost-effectiveness, compliance, and sustainability.",
+        title: "MEP Design Validation & Value Engineering - Agni Design Consultants",
+        description: "Agni Design Consultants provides MEP design validation and value engineering services. We optimize designs for performance, cost-effectiveness, compliance, and sustainability.",
         keywords: "MEP, design validation, value engineering, cost optimization, performance improvement, compliance, sustainability, energy efficiency, engineering, consulting",  // Add more keywords
-        canonical: "https://www.yourwebsite.com/mep-design-validation-value-engineering", // **REPLACE WITH YOUR ACTUAL URL**
+        canonical: "https://www.agnidesign.com/mep-design-validation-value-engineering", // **REPLACE WITH YOUR ACTUAL URL**
         openGraph: {
-            title: "MEP Design Validation & Value Engineering - Agni Design Consultant",
-            description: "Agni Design Consultant provides MEP design validation and value engineering services. We optimize designs for performance, cost-effectiveness, compliance, and sustainability.",
-            url: "https://www.yourwebsite.com/mep-design-validation-value-engineering", // **REPLACE WITH YOUR ACTUAL URL**
+            title: "MEP Design Validation & Value Engineering - Agni Design Consultants",
+            description: "Agni Design Consultants provides MEP design validation and value engineering services. We optimize designs for performance, cost-effectiveness, compliance, and sustainability.",
+            url: "https://www.agnidesign.com/mep-design-validation-value-engineering", // **REPLACE WITH YOUR ACTUAL URL**
             type: "website",
-            // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/validation-og-image.jpg",
+            // Add an OG image if you have one: image: "https://www.agnidesign.com/images/validation-og-image.jpg",
         },
     };
 

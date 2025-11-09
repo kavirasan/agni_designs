@@ -38,15 +38,15 @@ const services = [
 
 const ServicePage = () => {
   const seo = {
-    title: "Our Services - Agni Design Consultant",
-    description: "Explore Agni Design Consultant's comprehensive MEP design, BIM, and technical services. We offer innovative solutions for diverse projects.",
+    title: "Our Services - Agni Design Consultants",
+    description: "Explore Agni Design Consultants's comprehensive MEP design, BIM, and technical services. We offer innovative solutions for diverse projects.",
     keywords: "MEP, BIM, design, engineering, consulting, technical, due diligence, peer review, testing, commissioning", // Add more keywords
-    canonical: "https://www.yourwebsite.com/services", // Replace with your actual URL
+    canonical: "https://www.agnidesign.com/services", // Replace with your actual URL
     openGraph: {
-      title: "Our Services - Agni Design Consultant",
-      description: "Explore Agni Design Consultant's comprehensive MEP design, BIM, and technical services. We offer innovative solutions for diverse projects.",
-      // You can add an OG image if available: image: "https://www.yourwebsite.com/images/services-og-image.jpg",
-      url: "https://www.yourwebsite.com/services", // Your website URL
+      title: "Our Services - Agni Design Consultants",
+      description: "Explore Agni Design Consultants's comprehensive MEP design, BIM, and technical services. We offer innovative solutions for diverse projects.",
+      // You can add an OG image if available: image: "https://www.agnidesign.com/images/services-og-image.jpg",
+      url: "https://www.agnidesign.com/services", // Your website URL
       type: "website",
     },
   };

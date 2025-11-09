@@ -1,5 +1,6 @@
 {
-  "name": "frontend",
+  "name": "Agni Designs",
+"homepage": "www.agnidesign.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",

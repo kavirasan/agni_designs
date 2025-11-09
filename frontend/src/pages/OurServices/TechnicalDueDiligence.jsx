@@ -14,7 +14,7 @@ const TechnicalDueDiligence = () => {
   const technicalDueDiligence1 = {
     title: "Technical Due Diligence",
     description:
-      "Agni Design Consultant offers a comprehensive Technical Due Diligence (TDD) process to assess the integrity, efficiency, and compliance of Mechanical, Electrical, and Plumbing (MEP) systems in building projects. Our due diligence services provide stakeholders with critical insights to mitigate risks, enhance system performance, and ensure long-term sustainability.",
+      "Agni Design Consultants offers a comprehensive Technical Due Diligence (TDD) process to assess the integrity, efficiency, and compliance of Mechanical, Electrical, and Plumbing (MEP) systems in building projects. Our due diligence services provide stakeholders with critical insights to mitigate risks, enhance system performance, and ensure long-term sustainability.",
     short: "Ensuring MEP Excellence Through Due Diligence",
     shortDescription:
       "Agni's Technical Due Diligence process provides a thorough evaluation of MEP systems to identify risks, improve efficiency, and ensure compliance.",
@@ -117,16 +117,16 @@ const TechnicalDueDiligence = () => {
     },
   ];
   const seo = {
-    title: "Technical Due Diligence Services - Agni Design Consultant",
-    description: "Agni Design Consultant offers comprehensive Technical Due Diligence (TDD) for MEP systems. We assess integrity, efficiency, and compliance to mitigate risks and ensure sustainability.",
+    title: "Technical Due Diligence Services - Agni Design Consultants",
+    description: "Agni Design Consultants offers comprehensive Technical Due Diligence (TDD) for MEP systems. We assess integrity, efficiency, and compliance to mitigate risks and ensure sustainability.",
     keywords: "technical due diligence, TDD, MEP, mechanical, electrical, plumbing, engineering, consulting, assessment, risk mitigation, compliance, sustainability, energy efficiency", // Add relevant keywords
-    canonical: "https://www.yourwebsite.com/technical-due-diligence", // **REPLACE WITH YOUR ACTUAL URL**
+    canonical: "https://www.agnidesign.com/technical-due-diligence", // **REPLACE WITH YOUR ACTUAL URL**
     openGraph: {
-        title: "Technical Due Diligence Services - Agni Design Consultant",
-        description: "Agni Design Consultant offers comprehensive Technical Due Diligence (TDD) for MEP systems. We assess integrity, efficiency, and compliance to mitigate risks and ensure sustainability.",
-        url: "https://www.yourwebsite.com/technical-due-diligence", // **REPLACE WITH YOUR ACTUAL URL**
+        title: "Technical Due Diligence Services - Agni Design Consultants",
+        description: "Agni Design Consultants offers comprehensive Technical Due Diligence (TDD) for MEP systems. We assess integrity, efficiency, and compliance to mitigate risks and ensure sustainability.",
+        url: "https://www.agnidesign.com/technical-due-diligence", // **REPLACE WITH YOUR ACTUAL URL**
         type: "website",
-        // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/tdd-og-image.jpg",
+        // Add an OG image if you have one: image: "https://www.agnidesign.com/images/tdd-og-image.jpg",
     },
 };
 

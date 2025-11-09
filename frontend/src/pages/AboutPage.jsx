@@ -199,18 +199,19 @@ const AboutPage = () => {
 
 
   const seo = {
-    title: "About Us - Agni Design Consultant",
-    description: "Learn about Agni Design Consultant, a leading provider of MEP design and BIM services. Discover our expertise, mission, and the clients we serve.",
+    title: "About Us - Agni Design Consultants",
+    description: "Learn about Agni Design Consultants, a leading provider of MEP design and BIM services. Discover our expertise, mission, and the clients we serve.",
     keywords: "about us, company, team, mission, vision, MEP, BIM, engineering, design, consultants", // Add relevant keywords
-    canonical: "https://www.yourwebsite.com/about", // Replace with your actual URL
+    canonical: "https://www.agnidesign.com/about", // Updated with your actual URL
     openGraph: {
-      title: "About Us - Agni Design Consultant",
-      description: "Learn about Agni Design Consultant, a leading provider of MEP design and BIM services. Discover our expertise, mission, and the clients we serve.",
-      // Add an OG image if you have a suitable one: image: "https://www.yourwebsite.com/images/about-us-image.jpg",
-      url: "https://www.yourwebsite.com/about", // Your website URL
-      type: "website",
+        title: "About Us - Agni Design Consultants",
+        description: "Learn about Agni Design Consultants, a leading provider of MEP design and BIM services. Discover our expertise, mission, and the clients we serve.",
+        // Add an OG image if you have a suitable one: image: "https://www.agnidesign.com/images/about-us-image.jpg",
+        url: "https://www.agnidesign.com/about", // Updated with your actual URL
+        type: "website",
     },
-  };
+};
+
 
   return (
     <>

@@ -11,9 +11,11 @@ const SEO = () => {
           "name": "Agni Designs Consultants",
           "description":
             "At AGNI, we aim to redefine engineering standards in MEP design by integrating technology and sustainability in all our projects.",
-          "url": "https://agnidesign.netlify.app",
-          "logo": "https://agnidesign.netlify.app/logo.png", // Replace with your logo URL
-          "image": "https://agnidesign.netlify.app/banner.jpg", // Replace with a relevant image URL
+            
+              "url": "https://www.agnidesign.com",
+              "logo": "https://www.agnidesign.com/logo.png", // Replace with your logo URL
+              "image": "https://www.agnidesign.com/banner.jpg", // Replace with a relevant image URL
+            
           "telephone": "+91-1234567890", // Replace with your contact number
           "email": "info@agnidesign.com", // Replace with your email address
           "address": {

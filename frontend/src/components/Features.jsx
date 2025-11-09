@@ -16,15 +16,16 @@ const Features = () => {
     title: "Explore Agni Designs - MEP and BIM Services",
     description: "Agni Design Consultants offers cutting-edge MEP and BIM solutions. Discover our expertise, recent projects, clients, and specialized software.",
     keywords: "MEP, BIM, design, engineering, consulting, mechanical, electrical, plumbing, fire protection, software, clients, projects", // Add more keywords
-    canonical: "https://www.yourwebsite.com/features", // **REPLACE WITH YOUR ACTUAL URL**
+    canonical: "https://www.agnidesign.com/features", // Updated URL with your new domain
     openGraph: {
         title: "Explore Agni Designs - MEP and BIM Services",
         description: "Agni Design Consultants offers cutting-edge MEP and BIM solutions. Discover our expertise, recent projects, clients, and specialized software.",
-        url: "https://www.yourwebsite.com/features", // **REPLACE WITH YOUR ACTUAL URL**
+        url: "https://www.agnidesign.com/features", // Updated URL with your new domain
         type: "website",
-        // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/features-og-image.jpg",
+        // Add an OG image if you have one: image: "https://www.agnidesign.com/images/features-og-image.jpg",
     },
 };
+
   return (
     <>
     <AgniDesignSEO {...seo} />

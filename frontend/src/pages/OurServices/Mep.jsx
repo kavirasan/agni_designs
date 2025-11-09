@@ -11,16 +11,16 @@ import AgniDesignSEO from "../../SEO/AgniDesignSEO";
 const Mep = () => {
 
   const seo = {
-    title: "MEP Design Services - Agni Design Consultant",
-    description: "Agni Design Consultant provides comprehensive MEP design services, specializing in mechanical, electrical, plumbing, and fire protection systems. We deliver innovative and sustainable solutions.",
+    title: "MEP Design Services - Agni Design Consultants",
+    description: "Agni Design Consultants provides comprehensive MEP design services, specializing in mechanical, electrical, plumbing, and fire protection systems. We deliver innovative and sustainable solutions.",
     keywords: "MEP, mechanical, electrical, plumbing, fire protection, design, engineering, consulting, sustainability, energy efficiency, HVAC, electrical systems, plumbing systems", // Add more keywords as needed
-    canonical: "https://www.yourwebsite.com/mep", // **REPLACE WITH YOUR ACTUAL URL**
+    canonical: "https://www.agnidesign.com/mep", // **REPLACE WITH YOUR ACTUAL URL**
     openGraph: {
-        title: "MEP Design Services - Agni Design Consultant",
-        description: "Agni Design Consultant provides comprehensive MEP design services, specializing in mechanical, electrical, plumbing, and fire protection systems. We deliver innovative and sustainable solutions.",
-        url: "https://www.yourwebsite.com/mep", // **REPLACE WITH YOUR ACTUAL URL**
+        title: "MEP Design Services - Agni Design Consultants",
+        description: "Agni Design Consultants provides comprehensive MEP design services, specializing in mechanical, electrical, plumbing, and fire protection systems. We deliver innovative and sustainable solutions.",
+        url: "https://www.agnidesign.com/mep", // **REPLACE WITH YOUR ACTUAL URL**
         type: "website",
-        // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/mep-og-image.jpg",
+        // Add an OG image if you have one: image: "https://www.agnidesign.com/images/mep-og-image.jpg",
     },
 };
   const services = [

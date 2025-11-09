@@ -3,7 +3,9 @@ import path from "path";
 import { SitemapStream } from "sitemap"; // Correct import for ES module
 
 // Define your site's URL
-const baseUrl = 'https://agnidesign.netlify.app';
+// const baseUrl = 'https://agnidesign.netlify.app';
+const baseUrl = 'https://www.agnidesign.com';
+
 
 // List your static routes here
 const pages = [
@@ -28,7 +30,7 @@ sitemapStream.end();
 import { streamToPromise } from "sitemap"; // Import the streamToPromise
 
 streamToPromise(sitemapStream).then(data => {
-  const buildDir = path.resolve('build');
+  const buildDir = path.resolve('public');
   if (!fs.existsSync(buildDir)) {
     fs.mkdirSync(buildDir);
   }

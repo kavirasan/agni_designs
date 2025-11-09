@@ -134,19 +134,18 @@ const Clients_Page = () => {
   
 
   const seo = {
-    title: "Our Clients - Agni Design Consultant",
-    description: "See the prestigious clients who have trusted Agni Design Consultant for their MEP and BIM needs. We've delivered successful projects for diverse industries.",
+    title: "Our Clients - Agni Design Consultants",
+    description: "See the prestigious clients who have trusted Agni Design Consultants for their MEP and BIM needs. We've delivered successful projects for diverse industries.",
     keywords: "clients, projects, MEP, BIM, engineering, design, testimonials, portfolio, case studies", // Add more relevant keywords
-    canonical: "https://www.yourwebsite.com/clients", // Replace with your actual URL
+    canonical: "https://www.agnidesign.com/clients", // Updated with your actual URL
     openGraph: {
-      title: "Our Clients - Agni Design Consultant",
-      description: "See the prestigious clients who have trusted Agni Design Consultant for their MEP and BIM needs. We've delivered successful projects for diverse industries.",
-       // Add an OG image if you have a suitable one
-      url: "https://www.yourwebsite.com/clients", // Your website URL
-      type: "website",
+        title: "Our Clients - Agni Design Consultants",
+        description: "See the prestigious clients who have trusted Agni Design Consultants for their MEP and BIM needs. We've delivered successful projects for diverse industries.",
+        // Add an OG image if you have a suitable one
+        url: "https://www.agnidesign.com/clients", // Updated with your actual URL
+        type: "website",
     },
-  };
-
+};
 
   return (
     <>
@@ -198,7 +197,7 @@ const Clients_Page = () => {
                     Our customers make us great
                   </h1>
                   <p className="mt-6 text-xl/8 text-gray-700">
-                    Here at Agni Design Consultant, we specialize in delivering
+                    Here at Agni Design Consultants, we specialize in delivering
                     cutting-edge, sustainable design solutions tailored to meet
                     the evolving needs of our clients. By combining advanced
                     technology, creative vision, and industry expertise, we

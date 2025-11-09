@@ -36,7 +36,7 @@ const CustomFooter = () => {
               <Footer.Title title="Contact Us" />
               <Footer.LinkGroup col>
                 <Footer.Link>
-                  Agni Design Consultant, 21/10, Muthuvel St, Dr.Subbaraya
+                  Agni Design Consultants, 21/10, Muthuvel St, Dr.Subbaraya
                   Nagar, Kodambakkam, Chennai, Tamil Nadu 600024
                 </Footer.Link>
                 <a href="tel:+91987654321"> Phone No: 987654321 </a>
@@ -74,7 +74,7 @@ const CustomFooter = () => {
         </div>
         <Footer.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright href="#" by="Agni Design Consultant" year={2024} />
+          <Footer.Copyright href="#" by="Agni Design Consultants" year={2024} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon href="#" icon={BsFacebook} />
             <Footer.Icon href="#" icon={BsInstagram} />

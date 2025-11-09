@@ -2,16 +2,16 @@ import React from "react";
 import AgniDesignSEO from "../../SEO/AgniDesignSEO";
 const ServiceTemplate = ({services1,services}) => {
   const seo = {
-    title: "Our Services - Agni Design Consultant",
-    description: "Explore Agni Design Consultant's comprehensive MEP design, BIM, and technical services. We offer innovative solutions for diverse projects.",
+    title: "Our Services - Agni Design Consultants",
+    description: "Explore Agni Design Consultants's comprehensive MEP design, BIM, and technical services. We offer innovative solutions for diverse projects.",
     keywords: "MEP, BIM, design, engineering, consulting, technical, due diligence, peer review, testing, commissioning", // Add more keywords as needed
-    canonical: "https://www.yourwebsite.com/services", // **REPLACE WITH YOUR ACTUAL URL**
+    canonical: "https://www.agnidesign.com/services", // **REPLACE WITH YOUR ACTUAL URL**
     openGraph: {
-      title: "Our Services - Agni Design Consultant",
-      description: "Explore Agni Design Consultant's comprehensive MEP design, BIM, and technical services. We offer innovative solutions for diverse projects.",
-      url: "https://www.yourwebsite.com/services", // **REPLACE WITH YOUR ACTUAL URL**
+      title: "Our Services - Agni Design Consultants",
+      description: "Explore Agni Design Consultants's comprehensive MEP design, BIM, and technical services. We offer innovative solutions for diverse projects.",
+      url: "https://www.agnidesign.com/services", // **REPLACE WITH YOUR ACTUAL URL**
       type: "website",
-      // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/services-og-image.jpg",
+      // Add an OG image if you have one: image: "https://www.agnidesign.com/images/services-og-image.jpg",
     },
   };
 

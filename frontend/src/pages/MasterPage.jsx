@@ -46,11 +46,15 @@ const MasterPage = ({ RouteName }) => {
           property="og:description"
           content="Agni Design Consultants provide MEP technical due diligence and innovative engineering solutions."
         />
-        <meta
-          property="og:image"
-          content="https://agnidesign.netlify.app/logo-D-FpNNva.png"
-        />
-        <meta property="og:url" content="https://agnidesign.netlify.app/" />
+      <meta
+  property="og:image"
+  content="https://www.agnidesign.com/logo-D-FpNNva.png"
+/>
+<meta
+  property="og:url"
+  content="https://www.agnidesign.com/"
+/>
+
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
       </Helmet>

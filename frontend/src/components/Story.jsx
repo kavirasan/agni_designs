@@ -49,17 +49,18 @@ const Story = () => {
   };
 
   const seo = {
-    title: "Our Story - Agni Design Consultant",
-    description: "Meet the dedicated professionals behind Agni Design Consultant. Learn about our team, expertise, and commitment to delivering exceptional MEP and BIM solutions.",
-    keywords: "team, about us, story, company, professionals, expertise, MEP, BIM, design, engineering, consulting", // Add more keywords
-    canonical: "https://www.yourwebsite.com/story", // **REPLACE WITH YOUR ACTUAL URL**
-    openGraph: {
-        title: "Our Story - Agni Design Consultant",
-        description: "Meet the dedicated professionals behind Agni Design Consultant. Learn about our team, expertise, and commitment to delivering exceptional MEP and BIM solutions.",
-        url: "https://www.yourwebsite.com/story", // **REPLACE WITH YOUR ACTUAL URL**
-        type: "website",
-        // Add an OG image if you have one: image: "https://www.yourwebsite.com/images/story-og-image.jpg",
-    },
+    title: "Agni Design Consultants",
+description: "Meet the dedicated professionals behind Agni Design Consultants. Learn about our team, expertise, and commitment to delivering exceptional MEP and BIM solutions.",
+keywords: "team, about us, story, company, professionals, expertise, MEP, BIM, design, engineering, consulting", // Add more keywords if needed
+canonical: "https://www.agnidesign.com/", // Updated URL with your new domain
+openGraph: {
+    title: "Agni Design Consultants",
+    description: "Meet the dedicated professionals behind Agni Design Consultants. Learn about our team, expertise, and commitment to delivering exceptional MEP and BIM solutions.",
+    url: "https://www.agnidesign.com/", // Updated URL with your new domain
+    type: "website",
+    // Add an OG image if you have one: image: "https://www.agnidesign.com/images/story-og-image.jpg",
+},
+
 };
 
   return (
@@ -70,7 +71,7 @@ const Story = () => {
         <p className="text-sm uppercase md:text-[20px]">Meet Our Team</p>
         <div className="relative size-full">
           <AnimatedTitle
-            title=" the story of Agni Design Consultant"
+            title=" the story of Agni Design Consultants"
             sectionId="#story"
             containerClass="mt-5 pointer-events-none mix-blend-difference !text-xl md:!text-5xl relative z-10 "
           />

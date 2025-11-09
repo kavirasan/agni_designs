@@ -7,11 +7,19 @@ import AgniDesignSEO from "../SEO/AgniDesignSEO";
 
 const TeamCard = ({ img, name, title, description }) => {
   const seo = {
-    title: "Meet Our Team - Agni Design Consultant",
-    description: "Get to know the talented individuals behind Agni Design Consultant. Our team of experts is dedicated to delivering innovative and high-quality design solutions.",
+    title: "Meet Our Team - Agni Design Consultants",
+    description: "Get to know the talented individuals behind Agni Design Consultants. Our team of experts is dedicated to delivering innovative and high-quality design solutions.",
     keywords: "team, members, consultants, designers, engineers, BIM, MEP, architecture, construction, expertise", // Add relevant keywords
-    canonical: "https://www.yourwebsite.com/team", // Replace with your actual URL
-  };
+    canonical: "https://www.agnidesign.com/team", // Updated with your actual URL
+    openGraph: {
+        title: "Meet Our Team - Agni Design Consultants",
+        description: "Get to know the talented individuals behind Agni Design Consultants. Our team of experts is dedicated to delivering innovative and high-quality design solutions.",
+        // Add an OG image if you have a suitable one: image: "https://www.agnidesign.com/images/team-image.jpg",
+        url: "https://www.agnidesign.com/team", // Updated with your actual URL
+        type: "website",
+    },
+};
+
   return (
     <>
     <AgniDesignSEO {...seo} />
