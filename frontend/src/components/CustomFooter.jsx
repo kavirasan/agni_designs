@@ -21,7 +21,7 @@ const CustomFooter = () => {
               className=" object-cover w-48 h-24"
             />
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6 items-center justify-center">
+          <div className="grid grid-cols-1 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6 items-center justify-center">
             <div>
               <Footer.Title title="Quick Links" />
               <Footer.LinkGroup col>
